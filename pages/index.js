@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-import Teslim from '../assets/Images/Teslim.jpg'
+// import Teslim from '../assets/Images/Teslim.jpg'
 import Navbar from '../components/Navbar'
 
 

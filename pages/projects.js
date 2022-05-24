@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Project from "../assets/Images/Project.png"
 import secondProject from "../assets/Images/project3.png"
-import thirdProject from "../assets/Images/portfolio4.png"
+// import thirdProject from "../assets/Images/portfolio4.png"
 import Image from "next/image";
 import ProjectsHeader from '../components/ProjectsHeader';
 import Footer from '../components/Footer'
@@ -51,11 +51,11 @@ const projects = () => {
             </div>
           </div>
 
-
+{/* 
 
           <div className='w-full  lg:w-10/12 h-[auto]'>
             <Image src={thirdProject}  />
-          </div>
+          </div> */}
 
             {/* <h2 className='text-xl font-semibold text-center my-6'>My works.</h2> */}
 
