@@ -18,11 +18,11 @@ const Footer = () => {
 
 
   return (
-    <div className='flex flex-col h-auto'>
+    <div className='flex flex-col h-auto bg-[black] text-[white]'>
 
-      <div className='my-4 w-full flex justify-between px-6  '>
+      <div className='my-4 w-full flex justify-between px-6 items-center '>
         <div>
-          <p className='text-2xl font-bold'>Teslim Jimoh</p>
+          <p className='text-base lg:text-xl font-bold'>Teslim Jimoh</p>
         </div>
 
       

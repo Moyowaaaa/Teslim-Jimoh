@@ -2,7 +2,10 @@ import React from 'react'
 import Link from 'next/link'
 import Project from "../assets/Images/Project.png"
 import secondProject from "../assets/Images/project3.png"
+import thirdProject from "../assets/Images/portfolio2.png"
 // import thirdProject from "../assets/Images/portfolio4.png"
+import fourthProject from "../assets/Images/portfolio5.png"
+import fifthProject from "../assets/Images/portfolio4.png"
 import Image from "next/image";
 import ProjectsHeader from '../components/ProjectsHeader';
 import Footer from '../components/Footer'
@@ -12,7 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const projects = () => {
   return (
-    <div className='h-screen  flex flex-col'>
+    <div className='h-content lg:h-auto  flex flex-col bg-black text-white'>
       {/* <Link href="/">
         <div className='flex w-full h-[3rem]  items-center  mb-2 text-xl font-semibold cursor-pointer justify-around'>
             <p className='hover:border-b-2 border-b-[green] w-3/12'>Teslim Jimoh.</p>
@@ -24,7 +27,8 @@ const projects = () => {
 
 
         <div className='flex flex-col w-11/12 lg:w-8/12 h-screen justify-center  lg:h-auto mx-auto pt-2 items-center'>
-          <div className='w-full lg:w-10/12 h-auto'>
+
+          <div className='w-full lg:w-10/12 h-auto mb-4'>
             <Image src={Project}  />
 
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6 mb-4'>
@@ -38,7 +42,7 @@ const projects = () => {
             </div>
           </div>
 
-          <div className='w-full  lg:w-10/12 h-[auto] mb-6'>
+          <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
             <Image src={secondProject}  />
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
               <h2 className='hover:underline underline-[teal]'>Reboic</h2>
@@ -51,11 +55,51 @@ const projects = () => {
             </div>
           </div>
 
-{/* 
 
-          <div className='w-full  lg:w-10/12 h-[auto]'>
+
+          <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
             <Image src={thirdProject}  />
-          </div> */}
+            <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
+              <h2 className='hover:underline underline-[teal]'>G Technology</h2>
+
+              <div className='flex h-full gap-4 items-center'>
+              <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+
+              <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
+              </div>
+            </div>
+
+          </div>
+
+          <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
+            <Image src={fifthProject}  />
+            <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
+              <h2 className='hover:underline underline-[teal]'>------</h2>
+
+              <div className='flex h-full gap-4 items-center'>
+              <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+
+              <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
+            <Image src={fourthProject}  />
+            <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
+              <h2 className='hover:underline underline-[teal]'>------</h2>
+
+              <div className='flex h-full gap-4 items-center'>
+              <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+
+              <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
+              </div>
+            </div>
+
+          </div>
 
             {/* <h2 className='text-xl font-semibold text-center my-6'>My works.</h2> */}
 
