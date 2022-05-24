@@ -28,7 +28,7 @@ const projects = () => {
             <Image src={Project}  />
 
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6 mb-4'>
-              <h2 className='hover:underline underline-[teal]'>Abi's Skincare</h2>
+              <h2 className='hover:underline underline-[teal]'>Abi&apos;s Skincare</h2>
 
               <div className='flex h-full gap-4 items-center'>
               <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />

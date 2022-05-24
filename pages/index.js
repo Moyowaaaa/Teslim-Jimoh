@@ -48,7 +48,7 @@ export default function Home() {
               <div className='w-10/12 lg:w-7/12 mx-auto  flex flex-col justify-center'>
                 <h1 className='font-semibold text-[blue] text-1xl'>HELLO, EARTHLINGS.</h1>
             <h2 className='text-4xl font-bold mb-3 '>
-I'm Jimoh Teslim Oyewale.
+I&apos;m Jimoh Teslim Oyewale.
 </h2>
 <p className='mb-2 text-xl font-lg'>| Backend Engineer |</p>
 
