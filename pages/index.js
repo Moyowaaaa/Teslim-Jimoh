@@ -6,7 +6,9 @@ import axios from 'axios'
 import { useState,useEffect } from 'react'
 import Footer from '../components/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee,faEnvelope,FaLinkedin } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
+
+import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
 import Teslim from '../assets/Images/Teslim.jpg'
 import Navbar from '../components/Navbar'
 
@@ -44,26 +46,33 @@ export default function Home() {
 
             <div className=' w-full h-full flex flex-col  justify-center'>
               <div className='w-10/12 lg:w-7/12 mx-auto  flex flex-col justify-center'>
-            <h2 className='text-3xl font-bold mb-3 '>
-Jimoh Teslim Oyewale.
+                <h1 className='font-semibold text-[blue] text-1xl'>HELLO, EARTHLINGS.</h1>
+            <h2 className='text-4xl font-bold mb-3 '>
+I'm Jimoh Teslim Oyewale.
 </h2>
-<p className='mb-2 text-xl font-semibold'>Backend Engineer  <FontAwesomeIcon icon={FaLinkedin} width={25} height={25}/></p>
+<p className='mb-2 text-xl font-lg'>| Backend Engineer |</p>
 
 
-<p className='text-justify w-full px-auto'>
-Innovative Software Engineer with 2 years of experience in Web Application Development. 
-Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. 
-I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
-</p>
+<div className='w-full flex items-center gap-5 my-2 cursor-pointer'>
+<a href='https://github.com/teslim191' target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faGithub} width={25} className="hover:text-[blue]" /></a>
+<a href="https://www.linkedin.com/in/teslim-jimoh-52056818a" target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faLinkedin} width={25} className='text-[blue] hover:text-black' /></a>
+<a href='https://mobile.twitter.com/Teslim_96' target="_blank" rel="noreferrer" ><FontAwesomeIcon icon={faTwitter} width={25} className="hover:text-[blue]" /></a>
+
+
+</div>
+
+
+
+
 
 
 <div className='flex mt-5'>
 {/* <Link href="/projects"> */}
-<button className='h-auto px-6 lg:px-12 bg-[green] py-2 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[black] hover:bg-[white]'>Resumé</button>
+<button className='h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[black] hover:bg-[white] rounded-lg'>Resumé</button>
 {/* </Link> */}
 
 
-<button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-2 mx-4 text-black hover:border-[black] hover:text-[white] hover:bg-[blue]'>Hire Me</button>
+<button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-4 mx-4 text-black hover:border-[black] hover:text-[white] hover:bg-[blue] rounded-lg'>Hire Me</button>
 </div>
 
             </div>
@@ -74,6 +83,23 @@ I am passionate about transforming ideas into reality and is always motivated to
             </div>
 
             </div>
+
+
+            <div className='w-full h-screen flex flex-col  justify-center  text-black' id="about">
+
+            <div className='flex items-center justify-center w-full mb-12 lg:w-9/12 mx-auto py-6'><h1 className='w-auto font-bold text-2xl'>About</h1><hr className=' w-7/12 ml-4'></hr></div>
+
+
+            <div className=' w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
+            <p className='text-justify w-full px-auto'>
+Innovative Software Engineer with 2 years of experience in Web Application Development. 
+Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. 
+I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
+</p>
+
+</div>
+
+              </div>
 
 
 
@@ -174,10 +200,12 @@ Design websites based on clients specifications.
               <p>Phone: (+234) 903 265 5948</p>
               <p>Mobile: (+234) 905 208 2606</p>
               <p>Address:Tanke-Okeodo, Ilorin,Kwara State, KW Nigeria</p>
-              <a href="https://www.linkedin.com/in/teslim-jimoh-52056818a" target="_blank" rel="noreferrer" ><p className='mt-2 underline hover:decoration-[blue] hover:decoration-2'>Linkedin</p></a>
-             <a href='https://github.com/teslim191' target="_blank" rel="noreferrer" ><p className='my-4 underline hover:decoration-[blue] hover:decoration-2'>Github</p></a>
+              {/* <a href="https://www.linkedin.com/in/teslim-jimoh-52056818a" target="_blank" rel="noreferrer" ><p className='mt-2 underline hover:decoration-[blue] hover:decoration-2'>Linkedin</p></a>
+             <a href='https://github.com/teslim191' target="_blank" rel="noreferrer" ><p className='my-2 underline hover:decoration-[blue] hover:decoration-2'>Github</p></a>
               <a href='https://mobile.twitter.com/Teslim_96' target="_blank" rel="noreferrer" 
-              ><p className='underline hover:decoration-[blue] hover:decoration-2' >Twitter</p></a>
+              ><p className='underline hover:decoration-[blue] hover:decoration-2' >Twitter</p></a> */}
+
+              <p className='mt-2 underline hover:decoration-[blue] hover:decoration-2'><FontAwesomeIcon icon={faEnvelope} width={20} /></p>
               </div>
               </div>
 

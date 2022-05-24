@@ -6,7 +6,9 @@ import thirdProject from "../assets/Images/portfolio4.png"
 import Image from "next/image";
 import ProjectsHeader from '../components/ProjectsHeader';
 import Footer from '../components/Footer'
-
+import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub, fa} from '@fortawesome/free-brands-svg-icons'
+import { faCoffee,faEnvelope, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const projects = () => {
   return (
@@ -24,11 +26,31 @@ const projects = () => {
         <div className='flex flex-col w-11/12 lg:w-8/12 h-screen justify-center  lg:h-auto mx-auto pt-2 items-center'>
           <div className='w-full lg:w-10/12 h-auto'>
             <Image src={Project}  />
+
+            <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6 mb-4'>
+              <h2 className='hover:underline underline-[teal]'>Abi's Skincare</h2>
+
+              <div className='flex h-full gap-4 items-center'>
+              <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+
+              <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
+              </div>
+            </div>
           </div>
 
-          <div className='w-full  lg:w-10/12 h-[auto]'>
+          <div className='w-full  lg:w-10/12 h-[auto] mb-6'>
             <Image src={secondProject}  />
+            <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
+              <h2 className='hover:underline underline-[teal]'>Reboic</h2>
+
+              <div className='flex h-full gap-4 items-center'>
+              <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+
+              <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
+              </div>
+            </div>
           </div>
+
 
 
           <div className='w-full  lg:w-10/12 h-[auto]'>

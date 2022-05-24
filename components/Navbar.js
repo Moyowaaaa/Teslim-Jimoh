@@ -4,12 +4,12 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div>
-        <div className='hidden lg:flex items-center w-full h-[5rem] justify-between px-6 cursor-pointer3'>
+        <div className='hidden lg:flex items-center w-full h-[5rem] justify-between px-6 cursor-pointer'>
         <Link href='/'><p className='hover:border-b-2 border-[blue]'>Teslim Jimoh</p></Link>
 
 
         <div className='flex gap-5 cursor-pointer'>
-        <a href="#resume" className='hover:border-b-2 border-[blue]'>about</a>
+        <a href="#about" className='hover:border-b-2 border-[blue]'>about</a>
 
         <Link href="/projects">
              <p className='hover:border-b-2 border-[blue]'>projects</p>
