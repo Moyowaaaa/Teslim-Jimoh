@@ -10,12 +10,12 @@ import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import MobileNav from '../components/MobileNav'
 
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-import teslim from '../assets/Images/Teslim.jpg'
+import profile from "../assets/images/teslim.jpg"
 import Navbar from '../components/Navbar'
 
 
 export default function Home() {
-
+console.log(profile)
 
     
 
@@ -68,7 +68,9 @@ I&apos;m Jimoh Teslim Oyewale.
 
 <div className='flex mt-5'>
 {/* <Link href="/projects"> */}
+<a href="https://drive.google.com/file/d/140jvO7tlIgxvjD6Ss65DKuB6gb2igVCF/view?usp=drivesdk" target="_blank" rel="noreferrer">
 <button className='h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[black] hover:bg-[white] rounded-lg'>Resumé</button>
+</a>
 {/* </Link> */}
 
 
@@ -220,7 +222,8 @@ Design websites based on clients specifications.
           <div className='w-12/12 lg:w-5/12 bg-[darkslategrey] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center flex flex-col'>
 
             <div className=' w-7/12 h-3/5 px-6 mt-6'>
-              <Image src={teslim} className="w-full h-full" />
+              {/* <Image src={teslim} className="w-full h-full" /> */}
+              <Image src={profile}  className="w-full h-full" />
             </div>
     
 

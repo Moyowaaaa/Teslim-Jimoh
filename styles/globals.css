@@ -41,9 +41,7 @@ ul{
 }
 
 
-#inbox-overflow::-webkit-scrollbar{
-  width: 5px;
-}
+
 #overflow::-webkit-scrollbar {
   margin-top:2%;
 height: 5px;;
