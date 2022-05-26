@@ -224,8 +224,9 @@ Design websites based on clients specifications.
           <div className='w-12/12 lg:w-5/12 bg-[darkslategrey] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center flex flex-col'>
 
             <div className=' w-7/12 h-3/5 px-6 mt-6'>
-              {/* <Image src={teslim} className="w-full h-full" /> */}
-              <Image src={teslim}  className="w-full h-full" />
+              <Image src={teslim} className="w-full h-full" />
+              {/* <Image src={profile}  className="w-full h-full" /> */}
+            
             </div>
     
 
