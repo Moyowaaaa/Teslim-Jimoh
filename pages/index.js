@@ -10,15 +10,15 @@ import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import MobileNav from '../components/MobileNav'
 
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-import profile from "../assets/images/teslim.jpg"
+import teslim from '../assets/images/teslim.jpg'
+
 import Navbar from '../components/Navbar'
 
 // C:\Users\Moyowaa\Desktop\Web-dev\teslimPortfolio\portfolio\assets\images\teslim.jpg
 
 // \assets\images\teslim.jpg
 export default function Home() {
-console.log(profile)
-
+console.log(teslim)
     
 
    
@@ -225,7 +225,7 @@ Design websites based on clients specifications.
 
             <div className=' w-7/12 h-3/5 px-6 mt-6'>
               {/* <Image src={teslim} className="w-full h-full" /> */}
-              <Image src={profile}  className="w-full h-full" />
+              <Image src={teslim}  className="w-full h-full" />
             </div>
     
 
