@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import First from "../assets/images/portfolio1.png"
-import Second from "../assets/images/portfolio.png"
-import Third from "../assets/images/portfolio2.png"
-import Fourth from "../assets/images/portfolio5.png"
+import First from "../assets/images /portfolio1.png"
+import Second from "../assets/images /portfolio.png"
+import Third from "../assets/images /portfolio2.png"
+import Fourth from "../assets/images /portfolio5.png"
 import Fifth from "../assets/images/portfolio4.png"
 import Image from "next/image";
 import ProjectsHeader from '../components/ProjectsHeader';

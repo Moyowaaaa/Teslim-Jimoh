@@ -10,7 +10,7 @@ import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import MobileNav from '../components/MobileNav'
 
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-import profile from "../assets/images/teslim.jpg"
+import profile from "../assets/images /teslim.jpg"
 import Navbar from '../components/Navbar'
 
 
