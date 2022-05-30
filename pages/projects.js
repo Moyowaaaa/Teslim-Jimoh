@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-// import First from "../assets/images/portfolio1.PNG"
-// import Second from "../assets/images/portfolio.PNG"
-// import Third from "../assets/images/portfolio2.PNG"
-// import Fourth from "../assets/images/portfolio5.PNG"
-// import Fifth from "../assets/images/portfolio4.PNG"
+import First from "../images/portfolio1.PNG"
+import Second from "../images/portfolio.PNG"
+import Third from "../images/portfolio2.PNG"
+import Fourth from "../images/portfolio5.PNG"
+import Fifth from "../images/portfolio4.PNG"
 import Image from "next/image";
 import ProjectsHeader from '../components/ProjectsHeader';
 import Footer from '../components/Footer'
@@ -35,7 +35,7 @@ const projects = () => {
           <div className='w-full lg:w-10/12 h-auto mb-4'>
           <a href="https://organicskin.herokuapp.com/" target="_blank" rel="noreferrer">
           
-            {/* <Image src={First} /> */}
+            <Image src={First} />
             </a>
 
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6 mb-4'>
@@ -53,7 +53,7 @@ const projects = () => {
 
           <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
    
-            {/* <Image src={Second} /> */}
+            <Image src={Second} />
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
               <h2 className='hover:underline underline-[teal]'>Reboic</h2>
 
@@ -69,7 +69,7 @@ const projects = () => {
 
           <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
             
-            {/* <Image src={Third} /> */}
+            <Image src={Third} />
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
               <h2 className='hover:underline underline-[teal]'>G Technology</h2>
 
@@ -83,7 +83,7 @@ const projects = () => {
           </div>
 
           <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
-          {/* <Image src={Fourth} /> */}
+          <Image src={Fourth} />
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
               <h2 className='hover:underline underline-[teal]'>E-commerce</h2>
 
@@ -101,7 +101,7 @@ const projects = () => {
 
 
           <div className='w-full  lg:w-10/12 h-[auto] mb-4'>
-            {/* <Image src={Fifth} /> */}
+            <Image src={Fifth} />
             <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
               <h2 className='hover:underline underline-[teal]'>Malcolm Portfolio</h2>
 
