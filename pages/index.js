@@ -76,7 +76,10 @@ I&apos;m Jimoh Teslim Oyewale.
 {/* </Link> */}
 
 
+
+<a href="#contact">
 <button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-4 mx-4 text-white hover:border-[black] hover:text-[white] hover:bg-[blue] rounded-lg'>Hire Me</button>
+</a>
 </div>
 
             </div>

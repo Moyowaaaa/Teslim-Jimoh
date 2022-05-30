@@ -30,7 +30,7 @@ const projects = () => {
         <ProjectsHeader />
 
 
-        <div className='flex flex-col w-11/12 lg:w-8/12 h-screen justify-center  lg:h-auto mx-auto pt-2 items-center'>
+        <div className='flex flex-col w-11/12 lg:w-8/12 h-screen justify-center  lg:h-auto mx-auto pt-2 items-center mt-[5rem]'>
 
           <div className='w-full lg:w-10/12 h-auto mb-4'>
           <a href="https://organicskin.herokuapp.com/" target="_blank" rel="noreferrer">

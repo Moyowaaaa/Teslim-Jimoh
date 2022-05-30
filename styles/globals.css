@@ -15,6 +15,10 @@ body{
   color:white
 }
 
+html{
+ scroll-behavior: smooth;
+}
+
 
 /* .image{
   background-image: url('../assets/images/Teslim.jpg');
