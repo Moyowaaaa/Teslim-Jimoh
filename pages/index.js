@@ -10,7 +10,7 @@ import { faCoffee,faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import MobileNav from '../components/MobileNav'
 
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
-// import teslim from '../assets/images/teslim.jpg'
+import teslim from "../images/teslim.jpg"
 
 import Navbar from '../components/Navbar'
 
@@ -224,7 +224,7 @@ Design websites based on clients specifications.
           <div className='w-12/12 lg:w-5/12 bg-[darkslategrey] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center flex flex-col'>
 
             <div className=' w-7/12 h-3/5 px-6 mt-6'>
-              {/* <Image src={teslim} className="w-full h-full" /> */}
+              <Image src={teslim} className="w-full h-full" />
               {/* <Image src={profile}  className="w-full h-full" /> */}
             
             </div>
