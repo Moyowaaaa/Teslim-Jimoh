@@ -21,7 +21,7 @@ import Navbar from "../components/Navbar";
 
 
 
-const about = () => {
+const About = () => {
 
   const [openMenu, setOpenMenu] = useState(true)
 const closeMenu = () => {
@@ -234,4 +234,4 @@ useEffect(() => {
   );
 };
 
-export default about;
+export default About;

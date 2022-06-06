@@ -13,7 +13,7 @@ import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub, fa} from '@fortaw
 import { faCoffee,faEnvelope, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const projects = () => {
+const Projects = () => {
 
   const [openMenu, setOpenMenu] = useState(true)
 const closeMenu = () => {
@@ -142,4 +142,4 @@ useEffect(() => {
   )
 }
 
-export default projects
+export default Projects
