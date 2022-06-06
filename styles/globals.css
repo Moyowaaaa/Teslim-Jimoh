@@ -11,8 +11,9 @@ body {
     
 }
 body{
-  background-color: black;
-  color:white
+  color: black;
+  background-color:#edeced
+ 
 }
 
 html{
@@ -60,7 +61,7 @@ height: 5px;;
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black
+  background: #edeced
   
 }
 

@@ -31,7 +31,7 @@ const MobileNav = () => {
     <div className='flex  lg:hidden h-[5rem] items-center justify-between px-4'>
     
     <div className='flex flex-col justify-center text-2xl'>
-        Teslim Jimoh
+        Teslim Jimoh.
     </div>
 
 

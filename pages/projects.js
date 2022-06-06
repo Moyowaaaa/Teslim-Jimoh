@@ -19,7 +19,7 @@ const projects = () => {
   // console.log(Fourth)
   // console.log(Fifth)
   return (
-    <div className='h-content lg:h-auto  flex flex-col bg-black text-white'>
+    <div className='h-content lg:h-auto  flex flex-col bg-[#edeced] text-[black]'>
       {/* <Link href="/">
         <div className='flex w-full h-[3rem]  items-center  mb-2 text-xl font-semibold cursor-pointer justify-around'>
             <p className='hover:border-b-2 border-b-[green] w-3/12'>Teslim Jimoh.</p>

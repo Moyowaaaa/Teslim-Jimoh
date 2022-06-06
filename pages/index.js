@@ -43,7 +43,7 @@ export default function Home() {
           <Navbar />
 
           {/* ---------- */}
-          <div className='w-full h-full flex flex-col items-center justify-center bg-[black] text-[white]'>
+          <div className='w-full h-full flex flex-col items-center justify-center bg-[#edeced] text-[black]'>
 
 
             <div className=' w-full h-full flex flex-col  justify-center'>
@@ -52,7 +52,12 @@ export default function Home() {
             <h2 className='text-4xl font-bold mb-3 '>
 I&apos;m Jimoh Teslim Oyewale.
 </h2>
-<p className='mb-2 text-xl font-lg'>| Backend Engineer |</p>
+
+<p className='w-10/12 lg:w-full text-xs  mx-auto py-4 text-justify'>
+
+I'm an Innovative Software Engineer with more than 2 years of experience in Web Application Development. Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
+</p>
+<p className='mb-2 text-xl font-lg text-[blue]'>| Backend Engineer |</p>
 
 
 <div className='w-full flex items-center gap-5 my-2 cursor-pointer'>
@@ -77,8 +82,8 @@ I&apos;m Jimoh Teslim Oyewale.
 
 
 
-<a href="#contact">
-<button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-4 mx-4 text-white hover:border-[black] hover:text-[white] hover:bg-[blue] rounded-lg'>Hire Me</button>
+<a href="/about/#contact">
+<button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-4 mx-4 text-black hover:border-[black] hover:text-[white] hover:bg-[blue] rounded-lg'>Hire Me</button>
 </a>
 </div>
 
@@ -92,132 +97,7 @@ I&apos;m Jimoh Teslim Oyewale.
             </div>
 
 
-            <div className='w-full h-screen flex flex-col  justify-center  bg-[black] text-[white]' id="about">
-
-            <div className='flex items-center justify-center w-full mb-12 lg:w-9/12 mx-auto py-6'><h1 className='w-auto font-bold text-2xl'>About</h1><hr className=' w-7/12 ml-4'></hr></div>
-
-
-            <div className=' w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
-            <p className='text-justify w-full px-auto'>
-Innovative Software Engineer with 2 years of experience in Web Application Development. 
-Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. 
-I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
-</p>
-
-</div>
-
-              </div>
-
-
-
-
-            <div className='w-full h-screen flex flex-col  justify-center bg-[black] text-[white]  ' id="resume">
-
-            <div className='flex items-center justify-center w-full mb-12 lg:w-9/12 mx-auto py-6'><h1 className='w-auto font-bold text-2xl'>Skills</h1><hr className=' w-7/12 ml-4'></hr></div>
-
-
-            <div className=' w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript</li>
-<li>JQuery</li>
-<li>NodeJs/ExpressJs</li>
-<li>PHP</li>
-<li>MongoDB</li>
-<li>Python/Django</li>
-<li>MySQL</li>
-<li>Git/Github</li>
-</div>
-
-              </div>
-
-
-              <div className='w-full h-screen flex flex-col justify-center bg-[black] text-[white]'>
-              <div className='flex items-center justify-center w-full mb-12 lg:w-8/12 mx-auto py-6'><h1 className='w-9/12 lg:w-auto font-bold text-2xl'>WORK EXPERIENCE </h1><hr className='/12 lg:w-5/12 lg:ml-4'></hr></div>
-
-
-              <div className=' w-10/12 md:w-6/12 mx-auto flex flex-col my-4 '>
-              <p>Dec 2020 - Present</p>
-              <hr className='w-2/12'></hr>
-              <h2 className='font-bold text-xl '>Femtech Information Technology Institute --Ilorin</h2>
-              <li className='text-justify'>Design, implement and maintain various backend technologies for the institute.</li>
-<li className='text-justify'>Fix bugs and write clean reusable codes to improve the efficiency of existing applications.</li>
-<li className='text-justify'>Supervise student&apos;s projects from development to production using technologies like JavaScript, PHP and NodeJS.</li>
-<li className='text-justify'>Collaborate with other developers in building responsive and scalable web applications using technologies like PHP, Django and NodeJS.</li>
-<li className='text-justify'>Create clear, engaging lessons to draw interest and develop students in Web Application Development.</li>
-              </div>
-
-
-
-
-              <div className='w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
-              <p>Feb 2020 - Present</p>
-              <hr className='w-2/12'></hr>
-              <h2 className='font-bold text-xl'>Freelance</h2>
-              <li className='text-justify'>
-I help clients transform their ideas into reality.
-</li>
-
-<li>
-Design websites based on clients specifications.
-</li>
-
-
-
-              </div>
-
-
-
-              </div>
-
-
-              <div className='w-full  h-screen flex flex-col justify-center bg-[black] text-[white]  my-6'>
-              <div className='flex items-center justify-center w-full mb-12 w-full lg:w-8/12 mx-auto py-6'><h1 className='w-auto font-bold text-2xl'>Education </h1><hr className=' w-7/12 ml-4'></hr></div>
-
-
-
-              <div className='w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
-              <p>2013 - 2018</p>
-              <hr className='w-2/12'></hr>
-              <h2 className='font-bold text-xl'>University of Ilorin</h2>
-              <p>Bachelors Degree</p>
-              </div>
-
-
-
-              <div className='w-10/12 md:w-6/12 mx-auto flex flex-col my-4'>
-              <p>Jan 2021</p>
-              <hr className='w-2/12'></hr>
-              <h2 className='font-bold text-xl'>FreeCodeCamp</h2>
-              <p>JavaScript Data Structures and Algorithm</p>
-              {/* <p>The curriculum covers Basic JavaScript, Regular Expression, ECMAScript, Object-Oriented Programming, Introduction to Algorithm, Intermediate Programming, and Functional programming.</p> */}
-              </div>
-
-
-
-
-
-
-              </div>
-
-              <div className='w-full h-screen flex flex-col justify-center bg-[black] text-[white]  my-6' id="contact">
-              <div className='flex items-center justify-center w-full mb-12 lg:w-8/12 mx-auto py-6'><h1 className='w-auto font-bold text-2xl'>Contact </h1><hr className=' w-7/12 ml-4'></hr></div>
-
-              <div className='w-10/12 md:w-6/12 mx-auto mb-12 gap-6'>
-              <p>Phone: (+234) 903 265 5948</p>
-              <p>Mobile: (+234) 905 208 2606</p>
-              <p>Address:Tanke-Okeodo, Ilorin,Kwara State, KW Nigeria</p>
-              {/* <a href="https://www.linkedin.com/in/teslim-jimoh-52056818a" target="_blank" rel="noreferrer" ><p className='mt-2 underline hover:decoration-[blue] hover:decoration-2'>Linkedin</p></a>
-             <a href='https://github.com/teslim191' target="_blank" rel="noreferrer" ><p className='my-2 underline hover:decoration-[blue] hover:decoration-2'>Github</p></a>
-              <a href='https://mobile.twitter.com/Teslim_96' target="_blank" rel="noreferrer" 
-              ><p className='underline hover:decoration-[blue] hover:decoration-2' >Twitter</p></a> */}
-
-              <p className='mt-2 underline hover:decoration-[blue] hover:decoration-2'><FontAwesomeIcon icon={faEnvelope} width={20} /></p>
-              </div>
-              </div>
-
-
-              <Footer />
+            
         </div>
 
 

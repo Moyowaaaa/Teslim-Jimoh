@@ -5,25 +5,25 @@ import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesom
 
 
 const Footer = () => {
-    useEffect(() => {
+    // useEffect(() => {
 
-        function process() {
-          const d = new Date();
-          const year = d.getFullYear();
-          document.getElementById('demo').innerHTML = year;
-        }
-        process();
+    //     function process() {
+    //       const d = new Date();
+    //       const year = d.getFullYear();
+    //       document.getElementById('demo').innerHTML = year;
+    //     }
+    //     process();
     
-      })
+    //   })
 
 
   return (
-    <div className='flex flex-col h-auto bg-[black] text-[white]'>
+    <div className='flex flex-col h-auto bg-[#edeced] text-[black]'>
 
-      <div className='my-4 w-full flex justify-between px-6 items-center '>
-        <div>
-          <p className='text-base lg:text-xl font-bold'>Teslim Jimoh</p>
-        </div>
+      <div className='my-4 w-full flex justify-end px-6 items-flex-end '>
+        {/* <div>
+          <p className='text-base lg:text-xl font-bold'>Teslim Jimoh.</p>
+        </div> */}
 
       
         <div className='flex items-center gap-5 my-2 cursor-pointer'>
@@ -38,7 +38,7 @@ const Footer = () => {
 
       <div className='flex flex-col items-center justify-center py-2'>
         <hr className='h-[5px] w-10/12 mb-2'></hr>
-        <small>&copy; &nbsp;<span id="demo"></span> &nbsp;Moyowa.  All Rights Reserved. </small>
+        {/* <small>&copy; &nbsp;<span id="demo"></span> &nbsp;Moyowa.  All Rights Reserved. </small> */}
 
 </div>
     </div>
