@@ -5,16 +5,16 @@ import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesom
 
 
 const Footer = () => {
-    // useEffect(() => {
+    useEffect(() => {
 
-    //     function process() {
-    //       const d = new Date();
-    //       const year = d.getFullYear();
-    //       document.getElementById('demo').innerHTML = year;
-    //     }
-    //     process();
+        function process() {
+          const d = new Date();
+          const year = d.getFullYear();
+          document.getElementById('demo').innerHTML = year;
+        }
+        process();
     
-    //   })
+      })
 
 
   return (
@@ -36,9 +36,11 @@ const Footer = () => {
 
       </div>
 
-      <div className='flex flex-col items-center justify-center py-2'>
-        <hr className='h-[5px] w-10/12 mb-2'></hr>
-        {/* <small>&copy; &nbsp;<span id="demo"></span> &nbsp;Moyowa.  All Rights Reserved. </small> */}
+      <div className='flex flex-col items-center justify-center  '>
+        <div className='bg-[blue] text-white w-full flex flex-col items-center justify-center py-2'>
+     
+        <small>&copy; &nbsp;<span id="demo"></span> &nbsp;by Moyowa. </small>
+        </div>
 
 </div>
     </div>

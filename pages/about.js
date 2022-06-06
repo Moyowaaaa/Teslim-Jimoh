@@ -33,12 +33,12 @@ const about = () => {
     
 
       <div
-        className="w-full flex flex-col  justify-center  bg-[#edeced] text-[black] "
+        className="w-full flex flex-col  h-screen justify-center  bg-[#edeced] text-[black] pt-[4rem] "
 
       >
         <div className="flex justify-center  w-full  lg:w-9/12 mx-auto py-6 ">
-          <h1 className="w-auto  text-2xl pt-[4rem] text-center">Services</h1>
-          <hr className=" w-7/12 ml-4"></hr>
+          {/* <h1 className="w-auto  text-2xl pt-[4rem] text-center">Services</h1> */}
+          {/* <hr className=" w-7/12 ml-4"></hr> */}
         </div>
 
         <div className=" w-10/12 md:w-6/12 mx-auto flex flex-col my-4 gap-4 " >
@@ -52,34 +52,33 @@ const about = () => {
             software tester prior to live deployment of your web application.
           </p>
 
-          <div className="flex w-full gap-[4rem] pt-12 justify-center">
-              <div className="flex flex-col items-center gap-3 ">
+          <div className="flex w-full gap-4 lg:gap-[4rem] pt-12 justify-center">
+              <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
                   <FontAwesomeIcon icon={faEarthAmerica} width={25} />
                   <p>Web Development</p>
               </div>
 
             
 
-              <div className="flex flex-col items-center gap-3 ">
+              <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
                   <FontAwesomeIcon icon={faSliders} width={25} />
                   <p>Software Testing</p>
               </div>
 
-              <div className="flex flex-col items-center gap-3">
+              <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
                   <FontAwesomeIcon icon={faComment} width={25} />
                   <p>Consultancy</p>
               </div>
           </div>
         </div>
-      </div>
 
-      <div
-        className="w-full h-screen flex flex-col  justify-center bg-[#edeced] text-[black]  "
+        <div
+        className=" flex flex-col  justify-center bg-[#edeced] text-[black] pt-[3rem]  "
         id="resume"
       >
-        <div className="flex items-center justify-center w-full mb-12 lg:w-9/12 mx-auto py-6">
+        <div className="flex items-center justify-start w-10/12 mb-12 lg:w-6/12 mx-auto py-6">
           <h1 className="w-auto font-bold text-2xl text-[blue]">Skills</h1>
-          <hr className=" w-7/12 ml-4"></hr>
+       
         </div>
 
         <div className=" w-[auto] md:w-6/12 mx-auto flex flex-col my-4">
@@ -97,47 +96,51 @@ const about = () => {
           
 
           <div className="flex w-full gap-[4rem] flex-wrap">
-              <div className="flex flex-col items-center gap-3">
+              <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faHtml5} width={25} />
           <p className="text-sm">HTML</p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faCss3Alt} width={25} />
           <p className="text-sm">CSS</p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faJs} width={25} />
           <p className="text-sm">JavaScript</p>
           </div>
           
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faBootstrap} width={25} />
           <p className="text-sm">Bootstrap</p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
+          <FontAwesomeIcon icon={faPhp} width={25} />
+          <p className="text-sm">PHP</p>
+          </div>
+          
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
+          <FontAwesomeIcon icon={faPython} width={25} />
+          <p className="text-sm">Python</p>
+          </div>
+
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faNodeJs} width={25} />
           <p className="text-sm">NodeJS /Express</p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
-          <FontAwesomeIcon icon={faPhp} width={25} />
-          <p className="text-sm">PHP</p>
-          </div>
+        
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faDatabase} width={25} />
-          <p className="text-sm">MongoDB /mySQL</p>
+          <p className="text-sm">MongoDB /MySQL</p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
-          <FontAwesomeIcon icon={faPython} width={25} />
-          <p className="text-sm">Python/Django</p>
-          </div>
+       
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
               <FontAwesomeIcon icon={faGithub} width={25} />
               <p className="text-sm">Git/Github</p>
           </div>
@@ -149,10 +152,13 @@ const about = () => {
 
         </div>
       </div>
+      </div>
+
+      
 
 
 
-      <div className=" w-10/12 md:w-6/12 mx-auto flex flex-col my-4 ">
+      <div className=" w-10/12 md:w-6/12 h-screen items-center justify-center mx-auto flex flex-col my-4 ">
       <div className="flex justify-start  w-full  lg:w-full mx-auto py-6 ">
           <h1 className="w-auto font-bold text-2xl text-[blue]">Work Experience</h1>
           
@@ -186,12 +192,14 @@ const about = () => {
           in Web Application Development.
         </li>
       </div>
+
+      
       </div>
 
-      <div className="w-10/12 md:w-6/12 mx-auto flex flex-col my-4 mt-6">
+       <div className="w-10/12 md:w-6/12 mx-auto flex flex-col my-4 mt-6">
           <div className="flex flex-col gap-2">
           <h2 className="font-bold text-xl">Freelance</h2>
-        <p>Feb 2020 - Present</p>
+        <p className="text-xs">Feb 2020 - Present</p>
         <hr className="w-2/12"></hr>
       
         <li className="text-justify">
@@ -202,11 +210,13 @@ const about = () => {
       </div>
       </div>
 
+     
+
       <div
         className="w-full  flex flex-col justify-center bg-[#edeced] text-[black]  my-6"
         id="contact"
       >
-        <div className="flex items-center justify-start w-full mb-12 lg:w-6/12 mx-auto py-6 mt-[4rem]">
+        <div className="flex items-center justify-start w-full  lg:w-6/12 mx-auto py-6 mt-[4rem]">
           <h1 className="w-auto font-bold text-2xl text-[blue]">Contact </h1>
           
         </div>
