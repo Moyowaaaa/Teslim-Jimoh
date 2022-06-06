@@ -1,53 +1,46 @@
 import React,{useEffect, useState} from 'react'
-
+import MobileMenu from './MobileMenu'
 
 
 
 const MobileNav = () => {
-    const [show, setShow] = useState(false)
+    const [openMenu, setOpenMenu] = useState(true)
+    // const [closeMenu, setCloseMenu] = useState(false)
 
 
-    const openNav = () => {
-        setShow(true)
+    const open = () => {
+   setOpenMenu(false)
     }
 
-    const closeNav = () => {
-        setShow(false)
+    const closeMenu = () => {
+      setOpenMenu(true)
     }
-    // useEffect(() => {
-    //     window.addEventListener("load", this.myfunction);
-    // })
+
+  
 
 
-    // const openNav = () => {
-    //     document.getElementById("mobile").class.width = "100%";
-    // }
 
-    // const closeNav = () => {
-    //     document.getElementById("mobile").style.width = "0";
-    // }
+   
 
   return (
-    <div className='flex  lg:hidden h-[5rem] items-center justify-between px-4'>
-    
-    <div className='flex flex-col justify-center text-2xl'>
+    <div className='flex w-screen  lg:hidden h-[5rem] '>
+
+      <div className='items-center flex w-full justify-between px-4'>
+    <div className='flex flex-col justify-center text-base'>
         Teslim Jimoh.
     </div>
 
 
-    {/* <div id ="mobile" className={`${show ? "hidden" :"" }`}>
-      <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
-      <div class="ml"  onClick="closeNav">
-         <a href="#">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </div>
-  </div> */}
 
 
-  <span id="button" className='text-[40px] cursor-pointer'  onClick={openNav}>
+
+  <span id="button" className='text-[40px] cursor-pointer' onClick={open}>
   &#9776;</span>
+  </div>
+
+
+
+  <MobileMenu openMenu={openMenu} closeMenu={closeMenu} />
     </div>
   )
 }

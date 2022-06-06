@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <div className='flex flex-col h-auto bg-[#edeced] text-[black]'>
 
-      <div className='my-4 w-full flex justify-end px-6 items-flex-end '>
+      <div className='my-4 w-full flex justify-center px-6 lg:justify-end lg:items-flex-end '>
         {/* <div>
           <p className='text-base lg:text-xl font-bold'>Teslim Jimoh.</p>
         </div> */}

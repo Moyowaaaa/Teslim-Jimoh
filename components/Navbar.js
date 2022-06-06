@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
 
 
-              {/* <a href="#resume" className='hover:border-b-2 border-[blue]'>resumé</a> */}
+        
               <Link href="/about/#contact">
                 
                 <p className={`hover:border-b-2 border-[blue] ${router.pathname === "/about#contac" || router.pathname == '/about#contact' ? "border-b-2 border-[blue] " : ""}`}>contact</p></Link>
