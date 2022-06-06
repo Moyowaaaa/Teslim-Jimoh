@@ -55,7 +55,7 @@ I&apos;m Jimoh Teslim Oyewale.
 
 <p className='w-10/12 lg:w-full text-xs  mx-auto py-4 text-justify'>
 
-I'm an Innovative Software Engineer with more than 2 years of experience in Web Application Development. Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
+I&apos;m an Innovative Software Engineer with more than 2 years of experience in Web Application Development. Demonstrated talent for front and back-end web development. Detail-oriented, with a passion for writing clean and reusable codes in problem-solving. I am passionate about transforming ideas into reality and is always motivated to take up new challenges that will enable me learn and improve on my skillset.
 </p>
 <p className='mb-2 text-xl font-lg text-[blue]'>| Backend Engineer |</p>
 
@@ -82,9 +82,9 @@ I'm an Innovative Software Engineer with more than 2 years of experience in Web 
 
 
 
-<a href="/about/#contact">
+<Link href="/about/#contact">
 <button className='h-auto px-6 lg:px-12 bg-[] border-2 border-[blue] py-4 mx-4 text-black hover:border-[black] hover:text-[white] hover:bg-[blue] rounded-lg'>Hire Me</button>
-</a>
+</Link>
 </div>
 
             </div>
