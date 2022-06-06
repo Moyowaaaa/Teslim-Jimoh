@@ -45,33 +45,8 @@ const MobileMenu = ({openMenu, closeMenu}) => {
               </div>
           </div>
 
-      {/*<div className={`drop-shadow-xl bg-white fixed flex  top-[20px] w-screen pb-6 ${openMenu ? "hidden":"block"}` }
 
-         </div>
-    <div className='flex flex-col w-full text-center'>
-
-    <Link href='/'><p className='hover:border-b-2 border-[blue]'>Teslim Jimoh.</p></Link>
-
-          <Link href ="/about">
-        <p className={`hover:border-b-2 py-4 border-[blue] ${router.pathname === "/about" || router.pathname == '/about' ? " " : ""}` }>about</p>
-        </Link>
-
-        <Link href="/projects">
-             <p className='hover:border-b-2 py-4 border-[blue]'>projects</p>
-        </Link>
-
-
-    
-              <Link href="/about/#contact">
-                
-                <p className={`hover:border-b-2 py-4 border-[blue] ${router.pathname === "/about#contac" || router.pathname == '/about#contact' ? "border-b-2 border-[blue] " : ""}`}>contact</p></Link>
-        
-
-        <div onClick={closeMenu}>X</div>
-    </div> */}
-    
-
-    // </div>
+     </div>
     
   )
 }
