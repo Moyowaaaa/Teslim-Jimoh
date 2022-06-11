@@ -5,8 +5,8 @@ import picture from "../images/2.jpg";
 
 const Teslim = () => {
   return (
-    <div className='h-full  w-full flex flex-col justify-center'>
-      <div className='h-4/6 w-11/12 flex flex-col items-center justify-center'>
+    <div className='h-full  py-[2rem] lg:py-0  w-full flex flex-col justify-center items-center'>
+      <div className='h-4/6 w-full flex flex-col items-center justify-center lg:w-11/12'>
       <Image src={picture} alt='teslim' className='object-cover h-48 w-96'/>
       </div>
     </div>

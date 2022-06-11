@@ -55,9 +55,9 @@ useEffect(() => {
           <div className='w-full h-full flex flex-col items-center justify-center bg-[#edeced] text-[black]'>
 
 
-            <div className=' w-full h-full flex flex-col  justify-center'>
-              <div className='w-10/12 lg:w-7/12 mx-auto  flex flex-col justify-center'>
-                <h1 className='font-semibold text-[blue] text-1xl lg:text-2xl'>HELLO, EARTHLINGS.</h1>
+            <div className=' w-full h-full flex flex-col  lg:justify-center pt-[3rem] lg:pt-0'>
+              <div className='w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center'>
+                <h1 className='font-semibold text-[blue] text-xl lg:text-2xl'>HELLO, EARTHLINGS.</h1>
             <h2 className='text-2xl lg:text-4xl font-bold mb-3 '>
 I&apos;m Jimoh Teslim Oyewale.
 </h2>
@@ -113,19 +113,9 @@ I&apos;m an Innovative Software Engineer with more than 2 years of experience in
 
         
           
-          {/* <div className=' hidden w-12/12 lg:w-5/12 bg-[blue] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center lg:flex flex-col'> */}
-
-            {/* <div className=' w-7/12 h-3/5 px-6 mt-6'>
-              <Image src={teslim} className="w-full h-full" />
-            
-            
-            </div> */}
     
 
-
-          {/* </div> */}
-
-          <div className='w-4/12 h-screen'> 
+          <div className='w-11/12 mx-[auto]  lg:w-4/12 lg:h-screen'> 
         <Teslim />
         </div>
 

@@ -5,7 +5,7 @@ import MobileMenu from './MobileMenu'
 
 const MobileNav = () => {
     const [openMenu, setOpenMenu] = useState(true)
-    // const [closeMenu, setCloseMenu] = useState(false)
+
 
 
     const open = () => {
