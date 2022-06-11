@@ -1,7 +1,7 @@
 
 import React,{useState,useEffect} from 'react'
 import Image from "next/image";
-import picture from "../images/9.jpg";
+import picture from "../images/2.jpg";
 
 const Teslim = () => {
   return (
