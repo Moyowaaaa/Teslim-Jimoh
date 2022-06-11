@@ -13,6 +13,7 @@ import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub} from '@fortawesom
 import teslim from "../images/teslim.jpg"
 
 import Navbar from '../components/Navbar'
+import Teslim from '../components/Teslim'
 
 // C:\Users\Moyowaa\Desktop\Web-dev\teslimPortfolio\portfolio\assets\images\teslim.jpg
 
@@ -42,7 +43,7 @@ useEffect(() => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <MobileNav openMenu={openMenu} closeMenu={closeMenu} />
-      <div className='flex flex-col-reverse lg:flex-row h-auto' >
+      <div className='flex flex-col-reverse lg:flex-row h-auto justify-between' >
         
 
         <div className='w-12/12 lg:w-7/12 h-screen  px-auto'>
@@ -112,7 +113,7 @@ I&apos;m an Innovative Software Engineer with more than 2 years of experience in
 
         
           
-          <div className=' hidden w-12/12 lg:w-5/12 bg-[blue] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center lg:flex flex-col'>
+          {/* <div className=' hidden w-12/12 lg:w-5/12 bg-[blue] h-[35rem] lg:h-screen  lg:fixed px-auto lg:right-0 flex-col justify-center items-center lg:flex flex-col'> */}
 
             {/* <div className=' w-7/12 h-3/5 px-6 mt-6'>
               <Image src={teslim} className="w-full h-full" />
@@ -122,7 +123,12 @@ I&apos;m an Innovative Software Engineer with more than 2 years of experience in
     
 
 
-          </div>
+          {/* </div> */}
+
+          <div className='w-4/12 h-screen'> 
+        <Teslim />
+        </div>
+
       </div>
 
 
