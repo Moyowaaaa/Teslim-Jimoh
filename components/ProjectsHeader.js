@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const ProjectsHeader = () => {
   return (
     <div>
-        <div className='w-screen flex items-center lg:w-full h-[4rem]  cursor-pointer  justify-between px-6 bg-[#edeced] text-[black] fixed z-50 '>
+        <div className='w-screen flex items-center lg:w-full h-[4rem] shadow-md shadow-blue-100 cursor-pointer  justify-between px-6 bg-[#edeced] text-[black] fixed z-50 '>
 
             
         <Link href='/'><p className='hover:border-b-2 border-[blue]'>Teslim Jimoh.</p></Link>
