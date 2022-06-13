@@ -21,6 +21,8 @@ html{
 }
 
 
+
+
 /* .image{
   background-image: url('../assets/images/Teslim.jpg');
   background-size: cover;
@@ -73,4 +75,12 @@ height: 5px;;
 .overlay{
   background:rgba(13, 86, 164, 0.95)
 }
+
+
+@media screen and (max-width:600px){
+  html{
+    scroll-behavior: none;
+  }
+}
+
 
