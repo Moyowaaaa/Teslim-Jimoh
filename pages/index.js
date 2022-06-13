@@ -14,7 +14,7 @@ import teslim from "../images/teslim.jpg"
 
 import Navbar from '../components/Navbar'
 import Teslim from '../components/Teslim'
-import Sidebar from '../components/Sidebar'
+
 
 // C:\Users\Moyowaa\Desktop\Web-dev\teslimPortfolio\portfolio\assets\images\teslim.jpg
 
