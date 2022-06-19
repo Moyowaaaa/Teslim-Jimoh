@@ -61,7 +61,7 @@ useEffect(() => {
   </p>
 
 
-  <div className="flex w-full gap-4 lg:gap-[4rem] pt-12 justify-center">
+  <div className="flex flex-col gap-12 w-full gap-4 lg:gap-[4rem] pt-12 justify-center lg:flex-row">
       <div className="flex flex-col items-center gap-3 hover:text-[blue] cursor-pointer">
           <FontAwesomeIcon icon={faEarthAmerica} width={25} />
           <p>Web Development</p>
@@ -86,7 +86,9 @@ useEffect(() => {
       <h1 className=" font-bold text-2xl text-[blue] py-6">Skills</h1>
 
       <div className="w-10/12 mx-auto justify-center py-2 flex gap-[3.5rem] flex-wrap ">
-      <div className="flex flex-col items-center gap-3h-[4rem]  hover:text-[blue] cursor-pointer">
+
+        
+      <div className="flex flex-col items-center gap-3 h-[4rem]  hover:text-[blue] cursor-pointer">
   <FontAwesomeIcon icon={faHtml5}   />
   <p className="text-sm">HTML</p>
   </div>
@@ -107,7 +109,7 @@ useEffect(() => {
   </div>
 
   <div className="flex flex-col items-center gap-3 h-[4rem] hover:text-[blue] cursor-pointer">
-  <FontAwesomeIcon icon={faPhp}  />
+  <FontAwesomeIcon icon={faPhp} className="lg:w-[45px]" />
   <p className="text-sm">PHP</p>
   </div>
   
@@ -145,10 +147,10 @@ useEffect(() => {
   </div>
 
 
-  <div className="w-full flex flex-col h-screen pt-12 lg:pt-0">
+  <div className="w-11/12 mx-auto lg:mx-0 lg:w-full flex flex-col h-screen pt-12 lg:pt-0">
   <h1 className="w-auto font-bold text-2xl text-[blue] py-6">Work Experience</h1>
 
-  <div className="w-full flex flex-col gap-2">
+  <div className="w-full flex flex-col gap-2  ">
 
   <h2 className="font-bold text-xl ">
   Femtech Information Technology Institute, Ilorin
@@ -156,6 +158,7 @@ useEffect(() => {
 <p className="text-xs">Dec 2020 - Present</p>
 <hr className="w-2/12"></hr>
 
+<div className="w-full mx-auto">
 <li className="text-justify">
   Design, implement and maintain various backend technologies for the
   institute.
@@ -176,11 +179,12 @@ useEffect(() => {
   Create clear, engaging lessons to draw interest and develop students
   in Web Application Development.
 </li>
+</div>
 
 
     </div>
 
-    <div className="w-full  flex flex-col gap-2">
+    <div className="w-full  flex flex-col gap-2 mt-[7rem]">
 
     <h2 className="font-bold text-xl ">Freelance</h2>
 <p className="text-xs">Feb 2020 - Present</p>
@@ -200,7 +204,7 @@ useEffect(() => {
 
 
 
-  <div className="w-full flex flex-col h-screen justify-center items-center" id="contact">
+  <div className="w-full flex mt-[7rem] flex-col h-screen justify-center items-center" id="contact">
   <h1 className="w-auto font-bold text-2xl text-[blue] py-6">Contact </h1>
 
 

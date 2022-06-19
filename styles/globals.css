@@ -41,11 +41,11 @@ ul{
 }
 
 /* width */
-::-webkit-scrollbar {
-  width: 2px;
-  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    width: 2px;
+    scroll-behavior: smooth;
 
-}
+  }
 
 
 

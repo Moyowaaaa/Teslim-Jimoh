@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [navbar, setNavbar] = useState("")
   const router = useRouter();
-  console.log(router.pathname)
+
 
 
   return (

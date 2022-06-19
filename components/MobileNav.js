@@ -28,7 +28,7 @@ const MobileNav = () => {
       <button className="top-6 right-10 fixed z-50 text-4xl" onClick={() => setOpenMenu(!openMenu)}> &#9776;</button>
 
       <div className={`"top-0 right-0 fixed text-white bg-[blue] shadow-lg h-full w-screen z-50 ease-in-out duration-700 " ${openMenu ? " translate-x-0" : " translate-x-full"} `}>
-      <button className='top-4 right-4 fixed z-50 text-2xl' onClick={closeMenu}>X</button>
+      <button className='top-6 right-12 fixed z-50 text-2xl' onClick={closeMenu}>X</button>
 
 
 
