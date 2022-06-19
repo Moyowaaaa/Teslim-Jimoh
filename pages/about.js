@@ -155,8 +155,8 @@ useEffect(() => {
   <h2 className="font-bold text-xl ">
   Femtech Information Technology Institute, Ilorin
 </h2>
-<p className="text-xs">Dec 2020 - Present</p>
-<hr className="w-2/12"></hr>
+<p className="text-sm underline underline-offset-4 decoration-[blue]">Dec 2020 - Present</p>
+
 
 <div className="w-full mx-auto">
 <li className="text-justify">
@@ -187,8 +187,8 @@ useEffect(() => {
     <div className="w-full  flex flex-col gap-2 mt-[7rem]">
 
     <h2 className="font-bold text-xl ">Freelance</h2>
-<p className="text-xs">Feb 2020 - Present</p>
-<hr className="w-2/12"></hr>
+<p className="text-sm underline underline-offset-4 decoration-[blue] ">Feb 2020 - Present</p>
+
 
 <li className="text-justify">
   I help clients transform their ideas into reality.
@@ -204,7 +204,7 @@ useEffect(() => {
 
 
 
-  <div className="w-full flex mt-[7rem] flex-col h-screen justify-center items-center" id="contact">
+  <div className="w-full flex mt-[7rem] flex-col h-screen justify-center items-center lg:mt-0" id="contact">
   <h1 className="w-auto font-bold text-2xl text-[blue] py-6">Contact </h1>
 
 
