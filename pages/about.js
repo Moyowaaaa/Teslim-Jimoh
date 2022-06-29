@@ -251,6 +251,7 @@ const handleSubmit = (e) => {
             <input type="text" placeholder="Name" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"
             value={name}
             onChange={(e)=>setName(e.target.value)}
+            
             ></input>
 
             <input type="text" placeholder="Email" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"
