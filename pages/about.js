@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faEnvelope, faEarthAmerica, faSliders, faComment,faDatabase,faServer } from "@fortawesome/free-solid-svg-icons";
 import MobileNav from "../components/MobileNav";
 import { faHtml5, faCss3, faCss3Alt,faJs,faNodeJs,faPython, faBootstrap,faPhp} from '@fortawesome/free-brands-svg-icons'
-
 import {
   faFacebook,
   faInstagram,
@@ -18,12 +17,24 @@ import {
 import teslim from "../images/teslim.jpg";
 
 import Navbar from "../components/Navbar";
+import {db} from "../firebase"
+import { addDoc,collection } from "firebase/firestore";
+
 
 
 
 const About = () => {
 
   const [openMenu, setOpenMenu] = useState(true)
+  const [name,setName] = useState("")
+  const [email,setEmail] = useState("")
+  const [message,setMessage] = useState("")
+
+  const [submitted,setSubmited] = useState(false)
+
+
+
+  
 const closeMenu = () => {
   setOpenMenu(true)
 }
@@ -32,6 +43,32 @@ const closeMenu = () => {
 useEffect(() => {
   setOpenMenu(true)
 })
+
+
+
+const userCollectionRef = collection(db,"messages")
+const handleSubmit = (e) => {
+  e.preventDefault()
+  addDoc(userCollectionRef,{
+    name,
+    email,
+    message
+  })
+  .then(() => {
+
+    alert("Message sent 🙂")
+    setName("")
+    setEmail("")
+    setMessage("")
+   
+    
+  }, 2000)
+  .catch(err => {
+    alert(err)
+  }
+  )
+
+}
 
 
   return (
@@ -208,16 +245,29 @@ useEffect(() => {
   <h1 className="w-auto font-bold text-2xl text-[blue] py-6">Contact </h1>
 
 
-  <div className="w-full mt-[2rem] flex flex-col mx-auto">
-    <form>
-        <div className="flex flex-col gap-2">
-            <input type="text" placeholder="Name" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"></input>
+  <div className="w-full mt-[2rem] flex flex-col mx-auto ">
+    <form onSubmit={handleSubmit}>
+        <div className="flex flex-col gap-4">
+            <input type="text" placeholder="Name" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"
+            value={name}
+            onChange={(e)=>setName(e.target.value)}
+            ></input>
 
-            <input type="text" placeholder="Email" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"></input>
+            <input type="text" placeholder="Email" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"
+            value={email}
+            onChange={(e)=>setEmail(e.target.value)}
+            ></input>
 
-            <input type="text" placeholder="Subject" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"></input>
+            {/* <input type="text" placeholder="Subject" className="bg-[#edeced] border-b-[2px]  focus:border-[blue] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"></input> */}
             
-            <textarea placeholder="Message" className="h-24  border-b-[2px] focus:border-[blue] bg-[#edeced] resize-none px-2 pt-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey] "></textarea>
+            <textarea placeholder="Message" className="h-36  border-b-[2px] focus:border-[blue] bg-[#edeced] resize-none px-2 pt-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey] "
+             value={message}
+            onChange={(e)=>setMessage(e.target.value)}
+           
+            ></textarea>
+
+
+            {/* <p className={`${submitted ? "block" : "hidden"}`}>Message Submitted 🙂</p> */}
             </div>
 
             <button className="h-auto py-2 px-4 mt-12 border-[2px]  outline-none w-full bg-black text-white">Submit</button>

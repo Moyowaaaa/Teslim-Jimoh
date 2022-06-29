@@ -16,6 +16,8 @@ import Navbar from '../components/Navbar'
 import Teslim from '../components/Teslim'
 
 
+
+
 // C:\Users\Moyowaa\Desktop\Web-dev\teslimPortfolio\portfolio\assets\images\teslim.jpg
 
 // \assets\images\teslim.jpg
@@ -106,6 +108,8 @@ I&apos;m an Innovative Software Engineer with more than 2 years of experience in
             </div>
 
             </div>
+
+          
 
 
             
