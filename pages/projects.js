@@ -7,11 +7,14 @@ import Third from "../images/portfolio2.PNG"
 import Fourth from "../images/portfolio5.PNG"
 import Fifth from "../images/portfolio4.PNG"
 import Image from "next/image";
-import ProjectsHeader from '../components/ProjectsHeader';
+// import ProjectsHeader from '../components/ProjectsHeader';
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub, fa} from '@fortawesome/free-brands-svg-icons'
 import { faCoffee,faEnvelope, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import MobileNav from '../components/MobileNav'
+
 
 const Projects = () => {
 
@@ -34,7 +37,11 @@ useEffect(() => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <ProjectsHeader />
+      {/* <ProjectsHeader /> */}
+
+      <Navbar />
+
+      <MobileNav  />
 
 
       <div className='flex flex-col w-11/12 lg:w-8/12 mx-auto h-auto pt-[5rem]'>
@@ -98,7 +105,7 @@ useEffect(() => {
       <div className='flex h-full gap-4 items-center'>
       <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
 
-      <a href="/https://github.com/teslim191/ecommerce" target="_blank" rel="noreferrer">
+      <a href="https://github.com/teslim191/ecommerce" target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
       </a>
       </div>
@@ -122,6 +129,8 @@ useEffect(() => {
     </div>
 
   </div>
+
+  <Link href='https://github.com/teslim191?tab=repositories' target="_blank" rel="noreferrer"><div className='flex items-center justify-center pt-12 cursor-pointer hover:underline hover:text-[blue]'><span className='hidden lg:flex'>See More</span> &nbsp;&nbsp;<FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[blue]" /></div></Link>
 
 
 
