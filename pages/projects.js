@@ -6,6 +6,7 @@ import Second from "../images/portfolio.PNG"
 import Third from "../images/portfolio2.PNG"
 import Fourth from "../images/portfolio5.PNG"
 import Fifth from "../images/portfolio4.PNG"
+import Sixth from "../images/portfolio6.PNG"
 import Image from "next/image";
 // import ProjectsHeader from '../components/ProjectsHeader';
 import Navbar from '../components/Navbar'
@@ -46,6 +47,25 @@ useEffect(() => {
 
       <div className='flex flex-col w-11/12 lg:w-8/12 mx-auto h-auto pt-[5rem]'>
 
+      <div className='w-full  h-auto mb-4'>
+  <a href="http://mylink-shortner.herokuapp.com/" target="_blank" rel="noreferrer">
+  
+    <Image src={Sixth} />
+    </a>
+
+    <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6 mb-4'>
+      <h2 className='hover:underline underline-[teal]'>URL Shortner</h2>
+
+      <div className='flex h-full gap-4 items-center'>
+        <a href="http://mylink-shortner.herokuapp.com/" target="_blank" rel="noreferrer">
+      <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+      </a>
+
+     <a href="https://github.com/teslim191/url-shortner" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" /></a>
+      </div>
+    </div>
+  </div>
+
 
       <div className='w-full  h-auto mb-4'>
   <a href="https://organicskin.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -73,7 +93,9 @@ useEffect(() => {
   <h2 className='hover:underline underline-[teal]'>Reboic</h2>
 
   <div className='flex h-full gap-4 items-center'>
+    <a href="https://reboic.herokuapp.com/" target="_blank" rel="noreferrer">
   <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+  </a>
 
   <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
   </div>
@@ -81,7 +103,7 @@ useEffect(() => {
 </div>
 
 
-<div className='w-full   h-[auto] mb-4'>
+{/* <div className='w-full   h-[auto] mb-4'>
     
     <Image src={Third} />
     <div className='h-[4rem] bg-[blue] text-white flex items-center justify-between px-6'>
@@ -94,7 +116,7 @@ useEffect(() => {
       </div>
     </div>
 
-  </div>
+  </div> */}
 
 
   <div className='w-full   h-[auto] mb-4'>
@@ -103,7 +125,10 @@ useEffect(() => {
       <h2 className='hover:underline underline-[teal]'>E-commerce</h2>
 
       <div className='flex h-full gap-4 items-center'>
+        <a href="https://gadget-home.herokuapp.com/" target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+      </a>
+
 
       <a href="https://github.com/teslim191/ecommerce" target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
@@ -122,7 +147,9 @@ useEffect(() => {
       <h2 className='hover:underline underline-[teal]'>Malcolm Portfolio</h2>
 
       <div className='flex h-full gap-4 items-center'>
+        <a href ="https://malcolmdurosaye1.herokuapp.com/" target="_blank" rel="noreferrer">
       <FontAwesomeIcon icon={faExternalLinkAlt} width={20} className="hover:text-[grey]" />
+      </a>
 
       <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" />
       </div>
@@ -130,7 +157,7 @@ useEffect(() => {
 
   </div>
 
-  <Link href='https://github.com/teslim191?tab=repositories' target="_blank" rel="noreferrer"><div className='flex items-center justify-center pt-12 cursor-pointer hover:underline hover:text-[blue]'><span className='hidden lg:flex'>See More</span> &nbsp;&nbsp;<FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[blue]" /></div></Link>
+  <Link href='https://github.com/teslim191?tab=repositories' target="_blank" rel="noreferrer"><div className='flex items-center justify-center pt-12 cursor-pointer hover:underline hover:text-[blue]'><span className='flex'>See More</span> &nbsp;&nbsp;<FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[blue]" /></div></Link>
 
 
 
