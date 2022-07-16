@@ -83,7 +83,7 @@ height: 5px;;
 .link {
   display: inline-block;
   padding-bottom:2px;
-  background-image: linear-gradient(white, blue);
+  background-image: linear-gradient( #0000ff,#0000ff);
   background-position: right -100% bottom 0;
   background-size: 200% 2px;
   background-repeat: no-repeat;
