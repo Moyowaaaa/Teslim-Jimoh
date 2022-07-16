@@ -39,7 +39,7 @@ const Footer = () => {
       <div className='flex flex-col items-center justify-center  '>
         <div className='bg-[blue] text-white w-full flex flex-col items-center justify-center py-2'>
      
-        <small>&copy; &nbsp;<span id="demo"></span> &nbsp;by Moyowa. </small>
+        <small>&copy; &nbsp;<span id="demo"></span> &nbsp;Teslim Jimoh Oyewale </small>
         </div>
 
 </div>

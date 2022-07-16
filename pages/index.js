@@ -18,11 +18,9 @@ import Teslim from '../components/Teslim'
 
 
 
-// C:\Users\Moyowaa\Desktop\Web-dev\teslimPortfolio\portfolio\assets\images\teslim.jpg
 
-// \assets\images\teslim.jpg
 export default function Home() {
-// console.log(teslim)
+
     
 const [openMenu, setOpenMenu] = useState(true)
 const closeMenu = () => {
@@ -87,11 +85,11 @@ I&apos;m an Innovative Software Engineer with more than 2 years of experience in
 
 
 <div className='flex mt-5'>
-{/* <Link href="/projects"> */}
+
 <a href="https://drive.google.com/file/d/1BSOp8LtiwsQtPJx3oJwBsTRf4g9h_Uq_/view?usp=drivesdk" target="_blank" rel="noreferrer">
 <button className='h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[black] hover:bg-[white] rounded-lg'>Resumé</button>
 </a>
-{/* </Link> */}
+
 
 
 
