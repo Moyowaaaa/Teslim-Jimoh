@@ -6,7 +6,7 @@ import Second from "../images/portfolio.PNG"
 import Third from "../images/portfolio2.PNG"
 import Fourth from "../images/portfolio5.PNG"
 import Fifth from "../images/portfolio4.PNG"
-import Sixth from "../images/portfolio6.PNG"
+// import Sixth from "../images/portfolio6.PNG"
 import Image from "next/image";
 
 import Navbar from '../components/Navbar'
@@ -47,7 +47,7 @@ useEffect(() => {
 
       <div className='flex flex-col w-11/12 lg:w-8/12 mx-auto h-auto pt-[5rem]'>
 
-      <div className='w-full  h-auto mb-4'>
+      {/* <div className='w-full  h-auto mb-4'>
   <a href="http://mylink-shortner.herokuapp.com/" target="_blank" rel="noreferrer">
   
     <Image src={Sixth} />
@@ -64,7 +64,7 @@ useEffect(() => {
      <a href="https://github.com/teslim191/url-shortner" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} width={20} className="hover:text-[grey]" /></a>
       </div>
     </div>
-  </div>
+  </div> */}
 
 
       <div className='w-full  h-auto mb-4'>
