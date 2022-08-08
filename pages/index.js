@@ -34,10 +34,7 @@ const closeMenu = () => {
 
 useEffect(() => {
   setOpenMenu(true)
-  console.log(content)
-  const Header = content.children[1]
 
-  const stack = content.children[3]
 
  
 })
