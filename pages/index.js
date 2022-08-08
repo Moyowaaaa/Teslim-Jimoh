@@ -42,47 +42,6 @@ useEffect(() => {
   const Header = content.children[1]
 
   const stack = content.children[3]
-
-  tl
-  .to(app,{ duration: 0, css: { visibility: "visible" } })
-  // .fromTo(content, {rotation: 27, x: 100, y: -100}, { rotation: 0, x: 0, y: 0, ease: "power3.inOut"});
-  .from(content,{
-    opacity: 0, 
-    y: 100, 
-    duration: 1
-  })
-  //texts
-
-
-  // console.log(stack)
-
-  // console.log(Header)
-
-  // gsap.from(content,{
-  //   duration:1.2,
-  //   x:-1000,
-  //   ease:Power3.easeIn,
-  //   delay:0.1
-  // })
-
-  // gsap.from(Header, {
-   
-  //   duration:1.8,
-  //   y:-1000,
-  //   ease:Power3.easeInOut,
-  //   delay:0.4
-  // })
-
-  // gsap.from(stack, {
-  //   duration:2,
-  //   y:-1100,
-  //   ease:Power3.easeInOut,
-  //   delay:0.4
-  // })
-
-  // tl
-  // .from([Header, stack], { duration: 1, y: 75, opacity: 0, autoAlpha: 0, ease: "power3.easeOut", stagger: 0.18 })
-  // .from(content, { duration: 1, x: -1000, opacity: 0, autoAlpha: 0, ease: "power3.easeOut", delay: 0.2 })
   
  
 })
