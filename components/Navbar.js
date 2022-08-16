@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[black] text-[white] lg:fixed  shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
+        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[black] text-[white] lg:fixed z-50 shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
         <Link href='/'><p className='name link' >Teslim Jimoh.</p></Link>
 
 
