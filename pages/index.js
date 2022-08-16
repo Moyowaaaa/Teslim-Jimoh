@@ -59,8 +59,8 @@ export default function Home() {
     // })
     tl.from(".introduction",{
       duration:1.2,
-      y:"100",
-      skewY:10,
+      y:1200,
+      skewY:50,
       stagger:0.4,
       delay:"0.2"
     })
