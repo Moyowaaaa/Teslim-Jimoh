@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     tl.from(".name",{
       duration:1,
-      delay:0,
+      delay:1.3,
       x:-200,
       ease:"power2.easeOut"
     })
@@ -22,8 +22,8 @@ const Navbar = () => {
     tl.from(".links", {
       stagger:1.5,
       y:"-200",
-      duration:0.6,
-      delay:0,
+      duration:1,
+      delay:1.3,
       ease:"power3.out"
     })
 
@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[black] text-[white] lg:fixed z-50 shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
+        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[black] text-[white] lg:fixed  shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
         <Link href='/'><p className='name link' >Teslim Jimoh.</p></Link>
 
 

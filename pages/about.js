@@ -19,14 +19,14 @@ import teslim from "../images/teslim.jpg";
 import Navbar from "../components/Navbar";
 import {db} from "../firebase"
 import { addDoc,collection } from "firebase/firestore";
-// import {gsap, Power3} from 'gsap';
+import {gsap} from 'gsap';
 
 
 
 
 
 const About = () => {
-  
+  const tl = gsap
   const [openMenu, setOpenMenu] = useState(true)
   const [name,setName] = useState("")
   const [email,setEmail] = useState("")
@@ -44,6 +44,32 @@ const closeMenu = () => {
 
 useEffect(() => {
   setOpenMenu(true)
+  
+  tl.from(".box1",{
+    stagger:1.5,
+    y:1200,
+    duration:2,
+    delay:2.5,
+    ease:"power3.out"
+})
+
+tl.from(".box2",{
+    stagger:1.5,
+    y:1200,
+    duration:1,
+    delay:1.3,
+    ease:"power3.out",
+    rotation:240
+})
+
+tl.from(".box3",{
+    stagger:1.5,
+    y:1200,
+    duration:2,
+    delay:3,
+    ease:"power3.out",
+    rotation:240
+})
 })
 
 
@@ -101,19 +127,19 @@ const handleSubmit = (e) => {
 
 
   <div className="flex flex-col gap-12 w-full gap-4 lg:gap-[4rem] pt-12 justify-center lg:flex-row">
-      <div className="flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
+      <div className="box1 flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
           <FontAwesomeIcon icon={faEarthAmerica} width={25} />
           <p>Web Development</p>
       </div>
 
     
 
-      <div className="flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
+      <div className="box2 flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
           <FontAwesomeIcon icon={faSliders} width={25} />
           <p>Software Testing</p>
       </div>
 
-      <div className="flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
+      <div className="box3 flex flex-col items-center gap-3 hover:text-[#98dad9] cursor-pointer">
           <FontAwesomeIcon icon={faComment} width={25} />
           <p>Consultancy</p>
       </div>
