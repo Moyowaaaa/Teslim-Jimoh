@@ -20,10 +20,10 @@ import teslim from "../images/teslim.jpg";
 
 import Navbar from "../components/Navbar";
 import Teslim from "../components/Teslim";
-import { gsap, Power3 } from "gsap";
-// import {gsap, Power3} from 'gsap';
+import {gsap} from "gsap"
 
 export default function Home() {
+  const tl = gsap 
   const [openMenu, setOpenMenu] = useState(true);
   const closeMenu = () => {
     setOpenMenu(true);
@@ -31,6 +31,39 @@ export default function Home() {
 
   useEffect(() => {
     setOpenMenu(true);
+    // tl.from(".greeting",{
+    //   stagger:1.5,
+    //   x:"-1200",
+    //   duration:2,
+    //   delay:1.2,
+    //   ease: "power3.out"
+    // })
+    // tl.from(".stack",{
+    //   stagger:1.5,
+    //   x:"-800",
+    //   duration:1.2,
+    //   delay:0,
+    //   ease: "power3.out"
+    // })
+    
+    // tl.from(".about",{
+    //   duration:1.2,
+    //   y:1200,
+    //   ease: "power2.inOut"
+    // })
+    // tl.from(".lolo",{
+    //   duration:1,
+    //   delay:1.2,
+    //   y:1300,
+    //   ease:"power3.out"
+    // })
+    tl.from(".introduction",{
+      duration:1.2,
+      y:"100",
+      skewY:10,
+      stagger:0.4,
+      delay:"0.2"
+    })
   });
 
   return (
@@ -48,15 +81,15 @@ export default function Home() {
           {/* ---------- */}
           <div className="w-full h-full flex flex-col items-center justify-center bg-[black] text-[white]">
             <div className=" w-full h-full flex flex-col  lg:justify-center pt-[3rem] lg:pt-0">
-              <div className="w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center">
-                <h1 className="font-semibold text-[#98dad9] text-xl lg:text-2xl">
+              <div className="introduction w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center">
+                <h1 className=" font-semibold text-[#98dad9] text-xl lg:text-2xl">
                   HELLO, EARTHLINGS.
                 </h1>
-                <h2 className="text-2xl lg:text-4xl font-bold mb-3 ">
+                <h2 className=" text-2xl lg:text-4xl font-bold mb-3 ">
                   I&apos;m Jimoh Teslim Oyewale.
                 </h2>
 
-                <p className="w-full lg:w-full text-sm   mx-auto py-4 text-justify">
+                <p className=" w-full lg:w-full text-sm   mx-auto py-4 text-justify">
                   I&apos;m an Innovative Software Engineer with more than 2
                   years of experience in Web Application Development.
                   Demonstrated talent for front and back-end web development.
