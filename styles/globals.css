@@ -11,8 +11,8 @@ body {
     
 }
 body{
-  color: black;
-  background-color:#edeced
+  background-color: black;
+  color:#edeced
  
 }
 
@@ -37,6 +37,31 @@ ul{
   list-style-type: circle;
 }
 
+.first-block {
+  position: absolute;
+  width: 0%;
+  height: 100vh;
+  z-index: 10000;
+  background:  blue;
+  animation: go-left 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  left: 0;
+}
+
+@keyframes go-left{
+  0%{
+      left: 0;
+      width: 0%;
+  }
+  50%{
+      left: 0;
+      width: 100%;
+  }
+  100%{
+      left: 100%;
+      width: 0%;
+  }
+}
+
 /* width */
   ::-webkit-scrollbar {
     width: 2px;
@@ -55,12 +80,12 @@ height: 5px;;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: darkslategray;
+  background: black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #edeced
+  background: #98dad9
   
 }
 
@@ -83,7 +108,7 @@ height: 5px;;
 .link {
   display: inline-block;
   padding-bottom:2px;
-  background-image: linear-gradient( #0000ff,#0000ff);
+  background-image: linear-gradient( #98dad9,#98dad9);
   background-position: right -100% bottom 0;
   background-size: 200% 2px;
   background-repeat: no-repeat;
