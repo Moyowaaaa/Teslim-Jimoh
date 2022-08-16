@@ -14,7 +14,7 @@ const Navbar = () => {
   useEffect(() => {
     tl.from(".name",{
       duration:1,
-      delay:0.8,
+      delay:0,
       x:-200,
       ease:"power2.easeOut"
     })
@@ -23,7 +23,7 @@ const Navbar = () => {
       stagger:1.5,
       y:"-200",
       duration:0.6,
-      delay:0.2,
+      delay:0,
       ease:"power3.out"
     })
 
