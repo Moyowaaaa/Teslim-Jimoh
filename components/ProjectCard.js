@@ -16,13 +16,13 @@ const ProjectCard = ({work}) => {
       
 
         <div className='h-5/6 flex flex-col justify-center'>
-            <h2 className='text-4xl '>{work.title}</h2>
-            <p>{work.description}</p>
+            <h2 className='text-3xl border-b-2 border-b-[#98dad9] w-max'>{work.title}</h2>
+            <p className='py-2'>{work.description}</p>
             
 
             <div className='flex gap-4 pt-4 flex-wrap'>
         {work.languages.map((language,index) => (
-            <h2 key={index}>{language}</h2>
+            <h2 key={index} className="border-b-2 border-b-[#98dad9]">{language}</h2>
         ))}
         </div>
         </div>

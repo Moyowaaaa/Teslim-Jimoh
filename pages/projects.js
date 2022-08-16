@@ -25,8 +25,8 @@ useEffect(() => {
 const works = [ 
   {
     title:"e-commerce",
-    description:"",
-    languages:[],
+    description:"Online shopping site with php and sql",
+    languages:["html", "node", "vue"],
     github:"https://github.com/teslim191/ecommerce",
     view:"https://github.com/teslim191/ecommerce"
   },
@@ -73,7 +73,7 @@ console.log(works)
       <div className='w-full  pt-[4rem] h-screen'>
       <h2 className="text-white text-2xl cursor-pointer text-center pb-2">SOME OF MY WORK.  
       <a href='https://github.com/teslim191' target="_blank" rel="noreferrer" >
-      <span className='link'>SEE MORE </span></a>  </h2>
+      <span className='link hover:text-[#98dad9]'>SEE MORE </span></a>  </h2>
 
 
 

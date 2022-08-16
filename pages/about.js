@@ -19,7 +19,7 @@ import teslim from "../images/teslim.jpg";
 import Navbar from "../components/Navbar";
 import {db} from "../firebase"
 import { addDoc,collection } from "firebase/firestore";
-import {gsap, Power3} from 'gsap';
+// import {gsap, Power3} from 'gsap';
 
 
 

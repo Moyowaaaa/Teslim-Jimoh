@@ -2,21 +2,21 @@ import React,{useRef, useState,useEffect} from 'react'
 import Link from 'next/link'
 import Router from 'next/router'
 import { useRouter } from "next/router";
-import {gsap, Power3, Elastic, } from 'gsap';
+// import {gsap, Power3, Elastic, } from 'gsap';
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState("")
   const router = useRouter();
   let navbarRef =  useRef(null);
   // let linkRef = useRef(null);
-  const tl = gsap.timeline()
+  // const tl = gsap.timeline()
   // let elastic = Elastic.easeOut;
   // let ease = Power3.easeOut;
 
 
   useEffect(() => {
 
-    tl.fromTo(navbarRef, 
+    // tl.fromTo(navbarRef, 
       // {
       //   duration:1,
       //   y:-1200,
@@ -28,18 +28,18 @@ const Navbar = () => {
       //   delay:1,
         
       // }
-      {
-        duration:2,
-        delay:1,
-        y:0,
-        ease:"elastic.out"
-      },
-      {
-        duration:2,
-        y:0,
-        ease:"elastic.out"
-      }
-      )
+      // {
+      //   duration:2,
+      //   delay:1,
+      //   y:0,
+      //   ease:"elastic.out"
+      // },
+      // {
+      //   duration:2,
+      //   y:0,
+      //   ease:"elastic.out"
+      // }
+      // )
   
     // tl.from(linkRef,{
     //   duration: 3,

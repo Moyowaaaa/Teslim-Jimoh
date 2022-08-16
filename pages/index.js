@@ -14,7 +14,7 @@ import teslim from "../images/teslim.jpg"
 
 import Navbar from '../components/Navbar'
 import Teslim from '../components/Teslim'
-import {gsap, Power3} from 'gsap';
+// import {gsap, Power3} from 'gsap';
 
 
 
@@ -22,8 +22,8 @@ import {gsap, Power3} from 'gsap';
 export default function Home() {
 let headerRef = useRef(null)
 
-let tl = new gsap.timeline();
-let ease = Power3.easeOut;
+// let tl = new gsap.timeline();
+// let ease = Power3.easeOut;
   
 
     
