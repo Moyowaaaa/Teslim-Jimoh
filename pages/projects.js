@@ -25,8 +25,8 @@ useEffect(() => {
 const works = [ 
   {
     title:"e-commerce",
-    description:"Online shopping site with php and sql",
-    languages:["html", "node", "vue"],
+    description:"",
+    languages:[],
     github:"https://github.com/teslim191/ecommerce",
     view:"https://github.com/teslim191/ecommerce"
   },
@@ -44,13 +44,13 @@ const works = [
     github:"https://github.com/teslim191/url-shortner",
     view:"http://mylink-shortner.herokuapp.com/"
   },
-  {
-    title:"Payment System",
-    description:"",
-    languages:[],
-    github:"https://github.com/teslim191/online_payment",
-    view:""
-  }
+  // {
+  //   title:"Payment System",
+  //   description:"",
+  //   languages:[],
+  //   github:"https://github.com/teslim191/online_payment",
+  //   view:""
+  // }
 
 ]
 
@@ -80,7 +80,7 @@ console.log(works)
 
         <div className='flex flex-wrap justify-center '>
 
-          <div className='w-[80%] flex-col flex flex-wrap py-4 lg:ml-[10%] lg:flex-row'>
+          <div className='w-[80%] flex-col flex flex-wrap py-4 lg:ml-[10%] lg:flex-row '>
           {works.map((work) => (
 
 <ProjectCard work={work} key={work}  />
@@ -91,7 +91,9 @@ console.log(works)
         
       </div>
 
+
       {/* <Footer /> */}
+ 
 
     </div>
   )
