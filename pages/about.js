@@ -49,7 +49,7 @@ useEffect(() => {
     stagger:1.5,
     y:1200,
     duration:2,
-    delay:2.5,
+    delay:1,
     ease:"power3.out"
 })
 
@@ -57,7 +57,7 @@ tl.from(".box2",{
     stagger:1.5,
     y:1200,
     duration:1,
-    delay:1.3,
+    delay:1.2,
     ease:"power3.out",
     rotation:240
 })
@@ -66,7 +66,7 @@ tl.from(".box3",{
     stagger:1.5,
     y:1200,
     duration:2,
-    delay:3,
+    delay:1.5,
     ease:"power3.out",
     rotation:240
 })
