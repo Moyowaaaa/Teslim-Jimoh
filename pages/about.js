@@ -78,7 +78,7 @@ tl.from(".skills",{
   ease:"power3.out",
 
 })
-})
+},[])
 
 
 
