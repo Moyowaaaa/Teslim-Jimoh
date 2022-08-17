@@ -23,7 +23,7 @@ const Navbar = () => {
       stagger:1.5,
       y:"-200",
       duration:1,
-      delay:1.3,
+      delay:1,
       ease:"power3.out"
     })
 

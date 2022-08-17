@@ -70,6 +70,14 @@ tl.from(".box3",{
     ease:"power3.out",
     rotation:240
 })
+tl.from(".skills",{
+  stagger:1.5,
+  y:1200,
+  duration:2,
+  delay:1.8,
+  ease:"power3.out",
+
+})
 })
 
 
@@ -147,7 +155,7 @@ const handleSubmit = (e) => {
 
 
 
-      <div className="flex flex-col mt-[6rem]  w-full ">
+      <div className="skills flex flex-col mt-[6rem]  w-full ">
       <h1 className=" font-bold text-2xl text-[#98dad9] py-6">Skills</h1>
 
       <div className="w-10/12 mx-auto justify-center py-2 flex gap-[3.5rem] flex-wrap ">
