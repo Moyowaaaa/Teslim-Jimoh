@@ -13,7 +13,7 @@ const Teslim = () => {
     tl
     .from(".number", { duration: 2, opacity: 0, y: -300, ease: "Bounce.easeOut" })
     .from(".teslim", {
-      duration:1,
+      duration:1.5,
       ease:"power3.inOut",
       scale:2.5,
       delay:0,

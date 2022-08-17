@@ -8,20 +8,20 @@ const Loading = () => {
     useEffect(() => {
         tl.to(".first",{
             duration:1,
-            delay:1.8,
+            delay:1.2,
             y:-1200,
             ease:"power2.easeOut"
         })
     
         tl.to(".middle",{
-            duration:2,
+            duration:1,
             delay:1.4,
             y:-1400,
             ease:"power3.easeInOut"
         })
     
         tl.to(".third",{
-            duration:2,
+            duration:1,
             delay:1.2,
             y:-1600,
             ease:"bounce.out"
