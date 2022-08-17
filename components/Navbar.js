@@ -14,16 +14,16 @@ const Navbar = () => {
   useEffect(() => {
     tl.from(".name",{
       duration:1,
-      delay:1.3,
+      delay:1,
       x:-200,
-      ease:"power2.easeOut"
+      ease:"power2.out"
     })
 
     tl.from(".links", {
       stagger:1.5,
       y:"-200",
       duration:1,
-      delay:1,
+      delay:0.2,
       ease:"power3.out"
     })
 
