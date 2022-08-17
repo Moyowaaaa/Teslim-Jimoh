@@ -47,7 +47,8 @@ useEffect(() => {
   
   tl.from(".box1",{
     stagger:1.5,
-    y:1200,
+    y:1800,
+    
     duration:2,
     delay:1,
     ease:"power3.out"
@@ -55,7 +56,8 @@ useEffect(() => {
 
 tl.from(".box2",{
     stagger:1.5,
-    y:1200,
+    y:1800,
+  
     duration:1,
     delay:1.2,
     ease:"power3.out",
@@ -64,7 +66,8 @@ tl.from(".box2",{
 
 tl.from(".box3",{
     stagger:1.5,
-    y:1200,
+    y:1800,
+    
     duration:2,
     delay:1.5,
     ease:"power3.out",
@@ -72,7 +75,8 @@ tl.from(".box3",{
 })
 tl.from(".skills",{
   stagger:1.5,
-  y:1200,
+  y:1800,
+  
   duration:2,
   delay:1.8,
   ease:"power3.out",
