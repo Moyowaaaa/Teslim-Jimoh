@@ -284,20 +284,20 @@ const handleSubmit = (e) => {
   <div className="w-full mt-[2rem] flex flex-col mx-auto ">
     <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-4">
-            <input type="text" placeholder="Name" className="bg-[black] border-b-[2px]  focus:border-[#98dad9] w-full px-2 py-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
+            <input type="text" placeholder="Name" className="bg-[#0a192f] border-b-[2px]  focus:border-[#98dad9] w-full px-2 py-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
             value={name}
             onChange={(e)=>setName(e.target.value)}
             
             ></input>
 
-            <input type="text" placeholder="Email" className="bg-[black] border-b-[2px] text-white focus:border-[#98dad9] w-full px-2 py-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
+            <input type="text" placeholder="Email" className="bg-[#0a192f] border-b-[2px] text-white focus:border-[#98dad9] w-full px-2 py-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
             value={email}
             onChange={(e)=>setEmail(e.target.value)}
             ></input>
 
             {/* <input type="text" placeholder="Subject" className="bg-[#edeced] border-b-[2px]  focus:border-[#98dad9] w-full px-2 py-2 outline-none placeholder:text-black focus:placeholder:text-[darkslategrey]"></input> */}
             
-            <textarea placeholder="Message" className="h-36  border-b-[2px] focus:border-[#98dad9] bg-[black] resize-none px-2 pt-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
+            <textarea placeholder="Message" className="h-36  border-b-[2px] focus:border-[#98dad9] bg-[#0a192f] resize-none px-2 pt-2 outline-none placeholder:text-white focus:placeholder:text-[white] text-[white]"
              value={message}
             onChange={(e)=>setMessage(e.target.value)}
            
