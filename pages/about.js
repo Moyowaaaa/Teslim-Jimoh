@@ -47,35 +47,39 @@ useEffect(() => {
   
   tl.from(".box1",{
     stagger:1.5,
-    y:-1200,
+    y:1200,
     duration:2,
     delay:1,
-    ease:"power3.out"
+    ease:"power3.out",
+    opacity:'0'
 })
 
 tl.from(".box2",{
     stagger:1.5,
-    y:-1200,
+    y:1200,
     duration:1,
     delay:1.2,
     ease:"power3.out",
-    rotation:240
+    rotation:240,
+    opacity:'0'
 })
 
 tl.from(".box3",{
     stagger:1.5,
-    y:-1200,
+    y:1200,
     duration:2,
     delay:1.5,
     ease:"power3.out",
-    rotation:240
+    rotation:240,
+    opacity:'0'
 })
 tl.from(".skills",{
   stagger:1.5,
-  y:-1200,
+  y:1200,
   duration:2,
   delay:1.8,
   ease:"power3.out",
+  opacity:'0'
 
 })
 },[])
