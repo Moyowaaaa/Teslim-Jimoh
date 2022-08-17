@@ -30,9 +30,9 @@ const Loading = () => {
   return (
     <div className='absolute w-full h-screen  z-50'>
         <div className='flex h-full '>
-            <div className='first w-4/12 h-full bg-[#98dad9]'></div>
-            <div className='middle w-4/12 h-full bg-[#98dad9]'></div>
-            <div className='third w-4/12 h-full bg-[#98dad9]'></div>
+            <div className='first w-4/12 h-full bg-[#46b1a0]'></div>
+            <div className='middle w-4/12 h-full bg-[#46b1a0]'></div>
+            <div className='third w-4/12 h-full bg-[#46b1a0]'></div>
             
 
 

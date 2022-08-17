@@ -18,8 +18,8 @@ const Footer = () => {
 
 
   return (
-    // <div className=' w-full flex flex-col h-auto bg-[black] text-[white] lg:relative'>
-    <div className=' h-[2rem] bg-[#98dad9] text-center text-black font-semibold text-base relative'> 
+    // <div className=' w-full flex flex-col h-auto bg-[#0a192f] text-[white] lg:relative'>
+    <div className=' h-[2rem] bg-[#46b1a0] text-center text-black font-semibold text-base relative'> 
 
 <small>&copy; &nbsp;<span id="demo"></span> &nbsp;Teslim Jimoh Oyewale </small>
     </div>

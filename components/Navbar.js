@@ -56,7 +56,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[black] text-[white] lg:fixed z-50 shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
+        <div className={`hidden lg:flex items-center w-full h-[4rem] justify-between px-6 cursor-pointer bg-[#0a192f] text-[white] lg:fixed z-50 shadow-lg shadow-blue-200" ${router.pathname === "/about" || router.pathname == '/about' ? "w-screen" : ""}`} >
         <Link href='/'><p className='name link' >Teslim Jimoh.</p></Link>
 
 
@@ -73,7 +73,7 @@ const Navbar = () => {
         
               <Link href="/about/#contact" >
                 
-                <p className={`link thirdLink ${router.pathname === "/about#contac" || router.pathname == '/about#contact' ? "border-b-2 border-[#98dad9] " : ""}`}>contact</p></Link>
+                <p className={`link thirdLink ${router.pathname === "/about#contac" || router.pathname == '/about#contact' ? "border-b-2 border-[#46b1a0] " : ""}`}>contact</p></Link>
             </div>
         </div>
     </div>

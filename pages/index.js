@@ -82,10 +82,10 @@ export default function Home() {
           <Navbar />
 
           {/* ---------- */}
-          <div className="w-full h-full flex flex-col items-center justify-center bg-[black] text-[white]">
+          <div className="w-full h-full flex flex-col items-center justify-center bg-[#0a192f] text-[white]">
             <div className=" w-full h-full flex flex-col  lg:justify-center pt-[3rem] lg:pt-0">
               <div className="introduction w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center">
-                <h1 className=" font-semibold text-[#98dad9] text-xl lg:text-2xl">
+                <h1 className=" font-semibold text-[#46b1a0] text-xl lg:text-2xl">
                   HELLO, EARTHLINGS.
                 </h1>
                 <h2 className=" text-2xl lg:text-4xl font-bold mb-3 ">
@@ -102,7 +102,7 @@ export default function Home() {
                   challenges that will enable me learn and improve on my
                   skillset.
                 </p>
-                <p className="mb-2 text-xl font-lg text-[#98dad9]">
+                <p className="mb-2 text-xl font-lg text-[#46b1a0]">
                   | Backend Engineer |
                 </p>
 
@@ -115,7 +115,7 @@ export default function Home() {
                     <FontAwesomeIcon
                       icon={faGithub}
                       width={25}
-                      className="hover:text-[#98dad9]"
+                      className="hover:text-[#46b1a0]"
                     />
                   </a>
                   <a
@@ -126,7 +126,7 @@ export default function Home() {
                     <FontAwesomeIcon
                       icon={faLinkedin}
                       width={25}
-                      className="text-[#98dad9] hover:text-black"
+                      className="text-[#46b1a0] hover:text-black"
                     />
                   </a>
                   <a
@@ -137,7 +137,7 @@ export default function Home() {
                     <FontAwesomeIcon
                       icon={faTwitter}
                       width={25}
-                      className="hover:text-[#98dad9]"
+                      className="hover:text-[#46b1a0]"
                     />
                   </a>
                 </div>
@@ -148,13 +148,13 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <button className="h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[white] hover:bg-[#98dad9] rounded-lg">
+                    <button className="h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[white] hover:bg-[#46b1a0] rounded-lg">
                       Resumé
                     </button>
                   </a>
 
                   <Link href="/about/#contact">
-                    <button className="h-auto px-6 lg:px-12 bg-[white] py-4 mr-4 text-black  border-2 hover:bg-[#98dad9] hover:text-white hover:border-0 rounded-lg">
+                    <button className="h-auto px-6 lg:px-12 bg-[white] py-4 mr-4 text-black  border-2 hover:bg-[#46b1a0] hover:text-white hover:border-0 rounded-lg">
                       Hire Me
                     </button>
                   </Link>
