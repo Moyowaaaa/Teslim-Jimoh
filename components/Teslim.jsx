@@ -16,7 +16,7 @@ const Teslim = () => {
       duration:2,
       ease:"power3.inOut",
       scale:2.5,
-      delay:0,
+      delay:1.2,
     })
   })
 

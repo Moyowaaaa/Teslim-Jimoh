@@ -12,7 +12,7 @@ const ProjectCard = ({work}) => {
   
 
 
-    <div className='w-full lg:w-[30%] mt-2 lg:ml-2 h-[20rem] border-2 border-[#46b1a0] px-6'>
+    <div className='w-full bg-[#112240] lg:w-[30%] mt-2 lg:ml-2 h-[20rem] hover:text-[#46b1a0] px-6'>
     <div className='h-1/6  bottom-0 w-full flex items-center gap-4 justify-end'>
             <a href={work.view} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faExternalLinkAlt} width={15} className={`hover:text-[#46b1a0] ${work.view.length === 0 ? "hidden" : "flex"} `} />

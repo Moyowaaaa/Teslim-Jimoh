@@ -25,8 +25,8 @@ const Loading = () => {
             delay:1.2,
             y:-1600,
             ease:"bounce.out"
-        })
-    })
+    }) 
+})
   return (
     <div className='absolute w-full h-screen  z-50'>
         <div className='flex h-full '>
