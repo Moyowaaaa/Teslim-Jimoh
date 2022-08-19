@@ -1,25 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
 import {  faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {gsap} from 'gsap';
-
-
 
 const ProjectCard = ({work}) => {
-  const tl = gsap
-
-  useEffect(() => {
-    tl.from(".projects",{
-      stagger:1.5,
-      y:1200,
-      duration:2,
-      delay:1.5,
-      ease:"power3.out",
-      rotation:240,
-      opacity:'0'
-  })
-  },[])
 
   
 
@@ -28,7 +12,7 @@ const ProjectCard = ({work}) => {
   
 
 
-    <div className='projects w-full bg-[#112240] lg:w-[30%] mt-4 lg:ml-4 h-[18rem] hover:text-[#46b1a0] px-6 shadow-sm shadow-[#112240]'>
+    <div className='w-full bg-[#112240] lg:w-[30%] mt-4 lg:ml-4 h-[18rem] hover:text-[#46b1a0] px-6 shadow-sm shadow-[#112240]'>
     <div className='h-1/6  bottom-0 w-full flex items-center gap-4 justify-end'>
             <a href={work.view} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faExternalLinkAlt} width={15} className={`hover:text-[#46b1a0] ${work.view.length === 0 ? "hidden" : "flex"} `} />
