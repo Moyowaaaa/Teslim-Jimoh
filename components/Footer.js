@@ -18,10 +18,12 @@ const Footer = () => {
 
 
   return (
-    // <div className=' w-full flex flex-col h-auto bg-[#0a192f] text-[white] lg:relative'>
-    <div className=' h-[2rem] bg-[#46b1a0] text-center text-black font-semibold text-base relative'> 
-
-<small>&copy; &nbsp;<span id="demo"></span> &nbsp;Teslim Jimoh Oyewale </small>
+    <div className='relative  w-full py-2 flex flex-col items-center justify-center bottom-0 bg-[#46b1a0]'>
+      <div className='h-full w-full flex gap-2 justify-center'>
+        <p>&copy;</p>
+        <span id="demo"></span>
+        <p>Teslim Jimoh</p>
+      </div>
     </div>
 
 

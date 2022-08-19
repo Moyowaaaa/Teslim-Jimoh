@@ -1,11 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import { faFacebook,faInstagram,faTwitter,faLinkedin,faGithub, fa} from '@fortawesome/free-brands-svg-icons'
-import { faCoffee,faEnvelope, faExternalLinkAlt} from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import MobileNav from '../components/MobileNav'
 import ProjectCard from '../components/ProjectCard'
 
@@ -65,14 +60,15 @@ const works = [
     github:"",
     view:""
   },
-
+ 
 
 ]
 
-console.log(works)
+
 
 
   return (
+    
     <div className='bg-[#0a192f] text-white'>
          <Head>
         <title>Teslim Jimoh - Backend Engineer</title>
@@ -107,9 +103,8 @@ console.log(works)
       </div>
 
 
-      {/* <Footer /> */}
- 
 
+      
     </div>
   )
 }

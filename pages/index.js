@@ -181,7 +181,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="h-auto px-6 lg:px-12 bg-[green] py-4 mr-4 text-white hover:border-[green] hover:border-2 hover:text-[white] hover:bg-[#46b1a0] rounded-lg">
+            <button className="h-auto px-6 lg:px-12 bg-[#46b1a0] py-4 mr-4 text-white hover:border-[#46b1a0] hover:border-2 hover:text-[white] hover:bg-[#98dad9] rounded-lg">
               Resumé
             </button>
           </a>
