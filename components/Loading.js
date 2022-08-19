@@ -7,7 +7,7 @@ const Loading = () => {
 
     useEffect(() => {
            tl.to(".first",{
-      duration:1.6,
+      duration:1.8,
       delay:1.2,
       y:-1200,
       ease:"power2.easeOut",
@@ -15,7 +15,7 @@ const Loading = () => {
   })
 
   tl.to(".middle",{
-      duration:1.7,
+      duration:1.9,
       delay:1.4,
       y:-1400,
       ease:"power3.easeInOut",
@@ -23,7 +23,7 @@ const Loading = () => {
   })
 
   tl.to(".third",{
-      duration:1.6,
+      duration:1.7,
       delay:1.2,
       y:-1600,
       ease:"bounce.out",
