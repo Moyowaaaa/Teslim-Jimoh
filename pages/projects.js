@@ -44,13 +44,28 @@ const works = [
     github:"https://github.com/teslim191/url-shortner",
     view:"http://mylink-shortner.herokuapp.com/"
   },
-  // {
-  //   title:"Payment System",
-  //   description:"",
-  //   languages:[],
-  //   github:"https://github.com/teslim191/online_payment",
-  //   view:""
-  // }
+  {
+    title:"Payment System",
+    description:"",
+    languages:[],
+    github:"https://github.com/teslim191/online_payment",
+    view:""
+  },
+  {
+    title:"W.I.P",
+    description:"",
+    languages:[],
+    github:"",
+    view:""
+  },
+  {
+    title:"W.I.P",
+    description:"",
+    languages:[],
+    github:"",
+    view:""
+  },
+
 
 ]
 
@@ -71,7 +86,7 @@ console.log(works)
       <MobileNav  />
 
       <div className='w-full  pt-[4rem] h-screen'>
-      <h2 className="text-white text-2xl cursor-pointer text-center pb-2">SOME OF MY WORK.  
+      <h2 className="text-white text-2xl cursor-pointer text-center py-2">SOME OF MY WORK.  
       <a href='https://github.com/teslim191' target="_blank" rel="noreferrer" >
       <span className='link hover:text-[#46b1a0]'>SEE MORE </span></a>  </h2>
 
@@ -80,7 +95,7 @@ console.log(works)
 
         <div className='flex flex-wrap justify-center '>
 
-          <div className='w-[80%] flex-col flex flex-wrap py-4 lg:ml-[10%] lg:flex-row '>
+          <div className='w-[80%] flex-col flex flex-wrap py-4 lg:ml-[5%] lg:flex-row '>
           {works.map((work) => (
 
 <ProjectCard work={work} key={work}  />

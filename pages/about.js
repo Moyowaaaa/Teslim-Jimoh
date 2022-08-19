@@ -311,7 +311,7 @@ const handleSubmit = (e) => {
             {/* <p className={`${submitted ? "block" : "hidden"}`}>Message Submitted 🙂</p> */}
             </div>
 
-            <button className="h-auto py-2 px-4 mt-12 border-[2px]  outline-none w-full bg-black text-white">Submit</button>
+            <button className="h-auto py-2 px-4 mt-12 border-[2px]  outline-none w-full bg-black text-white hover:bg-[#46b1a0] hover:border-[#46b1a0]">Submit</button>
     </form>
 
     

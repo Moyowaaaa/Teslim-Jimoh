@@ -95,9 +95,6 @@ height: 5px;;
   background: #555;
 }
 
-.overlay{
-  background:rgba(13, 86, 164, 0.95)
-}
 
 
 @media screen and (min-width:1012px){
@@ -123,4 +120,27 @@ height: 5px;;
   background-position: 100% 100%; /*OR bottom right*/
   background-size: 100% 2px;
 }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  z-index: 99;
+}
+
+.first {
+  /* background: #efde74; */
+}
+
+.second {
+  /* background: #efde74; */
+  left: 33.3%;
+}
+
+.third {
+  /* background: #efde74; */
+  left: 66.6%;
+}
+
 

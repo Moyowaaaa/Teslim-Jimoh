@@ -18,7 +18,7 @@ const Teslim = () => {
       scale:2.5,
       delay:1.2,
     })
-  })
+  },[])
 
 
   return (
