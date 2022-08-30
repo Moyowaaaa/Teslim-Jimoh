@@ -15,29 +15,28 @@ const Loading = () => {
   })
 
   tl.to(".middle",{
-      duration:1.9,
-      delay:.6,
+      duration:2.5,
+      delay:1.6,
       y:-1400,
       ease:"power3.easeInOut",
       opacity:0
   })
   tl.to(".loading-text", {
-    duration:1.9,
-    delay:.9,
+    duration:2.5,
+    delay:1.4,
     ease:"power3.easeinOut",
     opacity:0
   })
 
   tl.to(".third",{
-      duration:1.7,
-      delay:.9,
+      duration:2.3,
+      delay:1.4,
       y:-1600,
       ease:"bounce.out",
       opacity:0
 }) 
 },[])
   return (
-    
     <div className='overlay absolute w-full h-screen '>
         <div className='flex h-full '>
     <div className='first w-4/12 h-full bg-[#46b1a0]'></div>
@@ -55,7 +54,7 @@ const Loading = () => {
 
         </div>
 
-       </div>
+        </div>
   )
 }
 
