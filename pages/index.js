@@ -90,7 +90,7 @@ export default function Home() {
       delay:3.2
     })
     tl.from(".introduction-name",{
-      duration:1.2,
+      duration:1,
       opacity:0,
       y:"100",
       delay:3,
@@ -99,14 +99,14 @@ export default function Home() {
 
 
     tl.from(".introduction-about",{
-      duration:1.8,
+      duration:1.2,
       delay:1.2,
       y:"100",
       ease:"power3.easeinOut",
       opacity:0
     })
     tl.from(".introduction-stack",{
-      duration:1.2,
+      duration:1,
       opacity:0,
       y:"-100",
       delay:3,
@@ -114,7 +114,7 @@ export default function Home() {
     })
 
     tl.from([".introduction-links", ".introduction-buttons"],{
-      duration:1.2,
+      duration:1,
       opacity:0,
       y:"-100",
       delay:3.2,
