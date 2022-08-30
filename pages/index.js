@@ -87,17 +87,40 @@ export default function Home() {
       opacity:0,
       y:"100",
       ease:"power3.easeinOut",
-      delay:3
+      delay:3.2
+    })
+    tl.from(".introduction-name",{
+      duration:1.2,
+      opacity:0,
+      y:"100",
+      delay:3,
+      ease: "power2.easeOut"
     })
 
 
     tl.from(".introduction-about",{
       duration:1.8,
       delay:1.2,
-      y:-1600,
+      y:"100",
       ease:"power3.easeinOut",
       opacity:0
     })
+    tl.from(".introduction-stack",{
+      duration:1.2,
+      opacity:0,
+      y:"-100",
+      delay:3,
+      ease: "power2.easeOut"
+    })
+
+    tl.from([".introduction-links", ".introduction-buttons"],{
+      duration:1.2,
+      opacity:0,
+      y:"-100",
+      delay:3.2,
+      ease: "power2.easeOut"
+    })
+    
  
 
   });
@@ -145,11 +168,11 @@ export default function Home() {
           challenges that will enable me learn and improve on my
           skillset.
         </p>
-        <p className="mb-2 text-xl font-lg text-[#46b1a0]">
+        <p className="introduction-stack mb-2 text-xl font-lg text-[#46b1a0]">
           | Backend Engineer |
         </p>
 
-        <div className="w-full flex items-center gap-5 my-2 cursor-pointer">
+        <div className="introduction-links w-full flex items-center gap-5 my-2 cursor-pointer">
           <a
             href="https://github.com/teslim191"
             target="_blank"
@@ -185,7 +208,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="flex mt-5">
+        <div className="introduction-buttons flex mt-5">
           <a
             href="https://drive.google.com/file/d/1BSOp8LtiwsQtPJx3oJwBsTRf4g9h_Uq_/view?usp=drivesdk"
             target="_blank"
