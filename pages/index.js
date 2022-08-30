@@ -82,13 +82,23 @@ export default function Home() {
     //   y:1300,
     //   ease:"power3.out"
     // })
-    tl.from(".introduction",{
-      duration:1.2,
-      y:1200,
-      skewY:50,
-      stagger:0.4,
-      delay:"0.2"
-    },[])
+    tl.from(".introduction-greeting", {
+      duration:1,
+      opacity:0,
+      y:"100",
+      ease:"power3.easeinOut",
+      delay:3
+    })
+
+
+    tl.from(".introduction-about",{
+      duration:1.8,
+      delay:1.2,
+      y:-1600,
+      ease:"power3.easeinOut",
+      opacity:0
+    })
+ 
 
   });
 
@@ -117,15 +127,15 @@ export default function Home() {
   {/* ---------- */}
   <div className="w-full h-full flex flex-col items-center justify-center bg-[#0a192f] text-[white]">
     <div className=" w-full h-full flex flex-col  lg:justify-center pt-[3rem] lg:pt-0">
-      <div className="introduction w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center">
-        <h1 className=" font-semibold text-[#46b1a0] text-xl lg:text-2xl">
+      <div className=" w-10/12 lg:w-7/12 mx-auto  flex flex-col lg:justify-center">
+        <h1 className="introduction-greeting font-semibold text-[#46b1a0] text-xl lg:text-2xl">
           HELLO, EARTHLINGS.
         </h1>
-        <h2 className=" text-2xl lg:text-4xl font-bold mb-3 ">
+        <h2 className="introduction-name text-2xl lg:text-4xl font-bold mb-3 ">
           I&apos;m Jimoh Teslim Oyewale.
         </h2>
 
-        <p className=" w-full lg:w-full text-sm   mx-auto py-4 text-justify">
+        <p className="introduction-about w-full lg:w-full text-sm   mx-auto py-4 text-justify">
           I&apos;m an Innovative Software Engineer with more than 2
           years of experience in Web Application Development.
           Demonstrated talent for front and back-end web development.

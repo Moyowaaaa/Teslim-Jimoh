@@ -21,6 +21,12 @@ const Loading = () => {
       ease:"power3.easeInOut",
       opacity:0
   })
+  tl.to(".loading-text", {
+    duration:1.9,
+    delay:1.2,
+    ease:"power3.easeinOut",
+    opacity:0
+  })
 
   tl.to(".third",{
       duration:1.7,
@@ -31,24 +37,25 @@ const Loading = () => {
 }) 
 },[])
   return (
-    <div className='overlay absolute w-full h-screen '>
-        <div className='flex h-full '>
-    <div className='first w-4/12 h-full bg-[#46b1a0]'></div>
-    <div className='middle w-4/12 h-full bg-[#46b1a0]'></div>
-    <div className='third w-4/12 h-full bg-[#46b1a0]'></div>
+    <div></div>
+    // <div className='overlay absolute w-full h-screen '>
+    //     <div className='flex h-full '>
+    // <div className='first w-4/12 h-full bg-[#46b1a0]'></div>
+    // <div className='middle w-4/12 h-full bg-[#46b1a0]'></div>
+    // <div className='third w-4/12 h-full bg-[#46b1a0]'></div>
 
-    <div className='absolute w-full h-full flex items-center justify-center flex-col'>
+    // <div className='loading-text absolute w-full h-full flex items-center justify-center flex-col'>
         
-       <h1 className='text-3xl font-bold text-[#112240]'> Teslim Jimoh </h1>
-        <h1 className='text-3xl font-bold text-[white]'>Backend Engineer</h1>
+    //    <h1 className='text-3xl font-bold text-[#112240]'> Teslim Jimoh </h1>
+    //     <h1 className='text-3xl font-bold text-[white]'>Backend Engineer</h1>
         
-        </div>
+    //     </div>
             
 
 
-        </div>
+    //     </div>
 
-        </div>
+    //     </div>
   )
 }
 

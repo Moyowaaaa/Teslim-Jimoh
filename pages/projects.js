@@ -23,7 +23,7 @@ const works = [
     description:"",
     languages:[],
     github:"https://github.com/teslim191/ecommerce",
-    view:"https://github.com/teslim191/ecommerce"
+    view:""
   },
   {
     title:"Abi's Skincare",
