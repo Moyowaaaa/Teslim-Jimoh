@@ -12,8 +12,8 @@ const ProjectCard = ({work}) => {
   
 
 
-    <div className='w-full bg-[#112240] lg:w-[30%] mt-4 lg:ml-4 h-[18rem] hover:text-[#46b1a0] px-6 shadow-lg'>
-    <div className='h-1/6  bottom-0 w-full flex items-center gap-4 justify-end'>
+    <div className='w-full bg-[#112240] lg:w-[30%] mt-4 lg:ml-4  hover:text-[#46b1a0] px-6 shadow-lg'>
+    <div className='  bottom-0 w-full flex items-center gap-4 justify-end pt-2'>
             <a href={work.view} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faExternalLinkAlt} width={15} className={`hover:text-[#46b1a0] ${work.view.length === 0 ? "hidden" : "flex"} `} />
             </a>
@@ -25,15 +25,15 @@ const ProjectCard = ({work}) => {
         </div>
       
 
-        <div className='h-4/6 flex flex-col '>
-            <h2 className='text-3xl  w-max'>{work.title}</h2>
+        <div className=' flex flex-col '>
+            <h2 className='text-3xl  w-auto'>{work.title}</h2>
             <p className='py-2 '>{work.description}</p>
             
 
           
         </div>
 
-        <div className='flex gap-4 pt-4 flex-wrap h-1/6 '>
+        <div className='flex gap-4 pt-4 flex-wrap   pb-4'>
         {work.languages.map((language,index) => (
             <h2 key={index} className="border-b-2 border-b-[#46b1a0]">{language}</h2>
         ))}
