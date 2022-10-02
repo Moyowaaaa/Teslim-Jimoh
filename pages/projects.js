@@ -24,6 +24,35 @@ const Projects = () => {
       view: "",
     },
     {
+      title: "Payment System",
+      description:
+        "server-side online_payment app with full authentication using session. users can purchase a product using the paystack payment gateway",
+      languages: ["NodeJS", "Express", "Mongoose", "Handlebars", "Multer-storage", "Paystack-API"],
+      github: "https://github.com/teslim191/online_payment",
+      view: "https://shoes.up.railway.app/",
+    },
+    {
+      title: "jwt_auth",
+      description: "using JWToken, APIcache, rate limiting and swagger-ui with RESTAPI",
+      languages: ["NodeJS", "Express", "MongoDB", "Mongoose", "Swagger-UI"],
+      github: "https://github.com/teslim191/jwt_auth",
+      view: "test-blog.up.railway.app/api-docs/",
+    },
+    {
+      title: "Blog",
+      description: "BLOG with Posts, Users and Comments using GraphQL and MongoDB",
+      languages: ["NodeJS", "GraphQL", "Express", "MongoDB", "Mongoose"],
+      github: "https://github.com/teslim191/blog_backend",
+      view: "",
+    },
+    {
+      title: "Passport-local Authentication",
+      description: "About Authentication system using Express Passport-Local",
+      languages: ["NodeJS", "Express", "MongoDB", "Mongoose", "Handlebars", "Passport-local"],
+      github: "",
+      view: "",
+    },
+    {
       title: "e-commerce",
       description:
         "e-commerce website with user authentication, handling session, add to cart using AJAX, full admin dashboard with CRUD functionalities.",
@@ -44,28 +73,6 @@ const Projects = () => {
       languages: ["Express", "NodeJS", "Handlebars", "Mongoose", "MongoDB"],
       github: "https://github.com/teslim191/url-shortner",
       view: "http://mylink-shortner.herokuapp.com/",
-    },
-    {
-      title: "Payment System",
-      description:
-        "server-side online_payment app with full authentication using session. users can purchase a product using the paystack payment gateway",
-      languages: ["NodeJS", "Express", "Mongoose", "Handlebars", "Multer-storage", "Paystack-API"],
-      github: "https://github.com/teslim191/online_payment",
-      view: "https://shoes.up.railway.app/",
-    },
-    {
-      title: "Blog",
-      description: "BLOG with Posts, Users and Comments using GraphQL and MongoDB",
-      languages: ["NodeJS", "GraphQL", "Express", "MongoDB", "Mongoose"],
-      github: "https://github.com/teslim191/blog_backend",
-      view: "",
-    },
-    {
-      title: "Passport-local Authentication",
-      description: "About Authentication system using Express Passport-Local",
-      languages: ["NodeJS", "Express", "MongoDB", "Mongoose", "Handlebars", "Passport-local"],
-      github: "",
-      view: "",
     },
     {
       title: "CRM",
