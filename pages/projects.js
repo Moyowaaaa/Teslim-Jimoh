@@ -16,6 +16,14 @@ const Projects = () => {
 
   const works = [
     {
+      title: "RestAPI",
+      description:
+        "A simple RESTAPI with CRUD functionalities using NestJS and MongoDB",
+      languages: ["NestJS", "MongoDB"],
+      github: "https://github.com/teslim191/nest_api",
+      view: "",
+    },
+    {
       title: "e-commerce",
       description:
         "e-commerce website with user authentication, handling session, add to cart using AJAX, full admin dashboard with CRUD functionalities.",
@@ -57,6 +65,13 @@ const Projects = () => {
       description: "About Authentication system using Express Passport-Local",
       languages: ["NodeJS", "Express", "MongoDB", "Mongoose", "Handlebars", "Passport-local"],
       github: "",
+      view: "",
+    },
+    {
+      title: "CRM",
+      description: "Customer Relationship Management Tool using Python",
+      languages: ["MySQL", "Python", "PyMySQL", "Tkinter"],
+      github: "https://github.com/teslim191/CRM",
       view: "",
     },
   ];
