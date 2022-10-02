@@ -88,7 +88,7 @@ const Projects = () => {
 
       <MobileNav />
 
-      <div className="w-full overflow-y-hidden pt-[4rem] h-screen">
+      <div className="w-full  pt-[4rem] h-screen">
         <h2 className="text-white text-2xl cursor-pointer text-center py-2">
           SOME OF MY WORK.
           <a
