@@ -196,7 +196,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://mobile.twitter.com/Teslim_96"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
